@@ -1,0 +1,7 @@
+;;; -*- Lisp -*-
+(load "script-support")
+(load-asdf)
+(quit-on-error
+ (load "../wild-modules")
+ (setf asdf:*central-registry* '(*default-pathname-defaults*))
+ (asdf:operate 'asdf:load-op 'wild-module))

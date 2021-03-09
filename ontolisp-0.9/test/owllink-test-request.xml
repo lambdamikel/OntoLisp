@@ -1,0 +1,302 @@
+<!DOCTYPE Ontology [
+   <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+   <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+]>
+
+<RequestMessage xmlns="http://www.owllink.org/owllink#"
+     xml:base="http://www.owllink.org/owllink"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+
+
+    <CreateKB kb="http://owllink.org/test/kb1/"/>
+
+    <Tell kb="http://owllink.org/test/kb1/">
+ 
+   <owl:SubClassOf>
+     <owl:Class IRI="Woman"/>
+     <owl:Class IRI="Person"/>
+   </owl:SubClassOf>
+   <owl:SubClassOf>
+     <owl:Class IRI="Mother"/>
+     <owl:Class IRI="Woman"/>
+   </owl:SubClassOf>
+   <owl:SubClassOf>
+     <owl:Class IRI="Grandfather"/>
+     <owl:ObjectIntersectionOf>
+       <owl:Class IRI="Man"/>
+       <owl:Class IRI="Parent"/>
+     </owl:ObjectIntersectionOf>
+   </owl:SubClassOf>
+   <owl:SubClassOf>
+     <owl:Class IRI="Father"/>
+     <owl:ObjectIntersectionOf>
+       <owl:Class IRI="Man"/>
+       <owl:Class IRI="Parent"/>
+     </owl:ObjectIntersectionOf>
+   </owl:SubClassOf>
+   <owl:SubClassOf>
+     <owl:Class IRI="ChildlessPerson"/>
+     <owl:ObjectIntersectionOf>
+       <owl:Class IRI="Person"/>
+       <owl:ObjectComplementOf>
+         <owl:ObjectSomeValuesFrom>
+           <owl:ObjectInverseOf>
+             <owl:ObjectProperty IRI="hasParent"/>
+           </owl:ObjectInverseOf>
+           <owl:Class abbreviatedIRI="owl:Thing"/>
+         </owl:ObjectSomeValuesFrom>
+       </owl:ObjectComplementOf>
+     </owl:ObjectIntersectionOf>
+   </owl:SubClassOf>
+   <owl:SubClassOf>
+     <owl:ObjectIntersectionOf>
+       <owl:ObjectOneOf>
+         <owl:NamedIndividual IRI="Mary"/>
+         <owl:NamedIndividual IRI="Bill"/>
+         <owl:NamedIndividual IRI="Meg"/>
+       </owl:ObjectOneOf>
+       <owl:Class IRI="Female"/>
+     </owl:ObjectIntersectionOf>
+     <owl:ObjectIntersectionOf>
+       <owl:Class IRI="Parent"/>
+       <owl:ObjectMaxCardinality cardinality="1">
+         <owl:ObjectProperty IRI="hasChild"/>
+       </owl:ObjectMaxCardinality>
+       <owl:ObjectAllValuesFrom>
+         <owl:ObjectProperty IRI="hasChild"/>
+         <owl:Class IRI="Female"/>
+       </owl:ObjectAllValuesFrom>
+     </owl:ObjectIntersectionOf>
+   </owl:SubClassOf>
+
+   <owl:SubClassOf>
+     <owl:Class IRI="Teenager"/>
+     <owl:DataSomeValuesFrom>
+       <owl:DataProperty IRI="hasAge"/>
+       <owl:DatatypeRestriction>
+         <owl:Datatype IRI="&xsd;integer"/>
+         <owl:FacetRestriction facet="&xsd;minExclusive">
+           <owl:Literal datatypeIRI="&xsd;integer">12</owl:Literal>
+         </owl:FacetRestriction>
+         <owl:FacetRestriction facet="&xsd;maxInclusive">
+           <owl:Literal datatypeIRI="&xsd;integer">19</owl:Literal>
+         </owl:FacetRestriction>
+       </owl:DatatypeRestriction>
+     </owl:DataSomeValuesFrom>
+   </owl:SubClassOf>
+   <owl:SubClassOf>
+     <owl:Annotation>
+       <owl:AnnotationProperty IRI="&rdfs;comment"/>
+       <owl:Literal datatypeIRI="xsd:string">"States that every man is a person."</owl:Literal>
+     </owl:Annotation>
+     <owl:Class IRI="Man"/>
+     <owl:Class IRI="Person"/>
+   </owl:SubClassOf>
+
+   <owl:EquivalentClasses>
+     <owl:Class IRI="HappyPerson"/>
+     <owl:ObjectIntersectionOf>
+       <owl:ObjectAllValuesFrom>
+         <owl:ObjectProperty IRI="hasChild"/>
+         <owl:Class IRI="HappyPerson"/>
+       </owl:ObjectAllValuesFrom>
+       <owl:ObjectSomeValuesFrom>
+         <owl:ObjectProperty IRI="hasChild"/>
+         <owl:Class IRI="HappyPerson"/>
+       </owl:ObjectSomeValuesFrom>
+     </owl:ObjectIntersectionOf>
+   </owl:EquivalentClasses>
+   <owl:EquivalentClasses>
+     <owl:Class IRI="JohnsChildren"/>
+     <owl:ObjectHasValue>
+       <owl:ObjectProperty IRI="hasParent"/>
+       <owl:NamedIndividual IRI="John"/>
+     </owl:ObjectHasValue>
+   </owl:EquivalentClasses>
+   <owl:EquivalentClasses>
+     <owl:Class IRI="NarcisticPerson"/>
+     <owl:ObjectHasSelf>
+       <owl:ObjectProperty IRI="loves"/>
+     </owl:ObjectHasSelf>
+   </owl:EquivalentClasses>
+   <owl:EquivalentClasses>
+     <owl:Class IRI="Orphan"/>
+     <owl:ObjectAllValuesFrom>
+       <owl:ObjectInverseOf>
+         <owl:ObjectProperty IRI="hasChild"/>
+       </owl:ObjectInverseOf>
+       <owl:Class IRI="Dead"/>
+     </owl:ObjectAllValuesFrom>
+   </owl:EquivalentClasses>
+   <owl:EquivalentClasses>
+     <owl:Class IRI="MyBirthdayGuests"/>
+     <owl:ObjectOneOf>
+       <owl:NamedIndividual IRI="Bill"/>
+       <owl:NamedIndividual IRI="John"/>
+       <owl:NamedIndividual IRI="Mary"/>
+     </owl:ObjectOneOf>
+   </owl:EquivalentClasses>
+   <owl:EquivalentClasses>
+     <owl:Class IRI="Adult"/>
+     <owl:Class abbreviatedIRI="otherOnt:Grownup"/>
+   </owl:EquivalentClasses>
+   <owl:EquivalentClasses>
+     <owl:Class IRI="Parent"/>
+     <owl:ObjectSomeValuesFrom>
+       <owl:ObjectProperty IRI="hasChild"/>
+       <owl:Class IRI="Person"/>
+     </owl:ObjectSomeValuesFrom>
+   </owl:EquivalentClasses>
+   <owl:EquivalentClasses>
+     <owl:Class IRI="Parent"/>
+     <owl:ObjectSomeValuesFrom>
+       <owl:ObjectProperty IRI="hasChild"/>
+       <owl:Class IRI="Person"/>
+     </owl:ObjectSomeValuesFrom>
+   </owl:EquivalentClasses>
+   <owl:EquivalentClasses>
+     <owl:Class IRI="Person"/>
+     <owl:Class IRI="Human"/>
+   </owl:EquivalentClasses>
+   <owl:EquivalentClasses>
+     <owl:Class IRI="Mother"/>
+     <owl:ObjectIntersectionOf>
+       <owl:Class IRI="Woman"/>
+       <owl:Class IRI="Parent"/>
+     </owl:ObjectIntersectionOf>
+   </owl:EquivalentClasses>
+   <owl:EquivalentClasses>
+     <owl:Class IRI="Parent"/>
+     <owl:ObjectUnionOf>
+       <owl:Class IRI="Mother"/>
+       <owl:Class IRI="Father"/>
+     </owl:ObjectUnionOf>
+   </owl:EquivalentClasses>
+   <owl:EquivalentClasses>
+     <owl:Class IRI="ChildlessPerson"/>
+     <owl:ObjectIntersectionOf>
+       <owl:Class IRI="Person"/>
+       <owl:ObjectComplementOf>
+         <owl:Class IRI="Parent"/>
+       </owl:ObjectComplementOf>
+     </owl:ObjectIntersectionOf>
+   </owl:EquivalentClasses>
+
+   <owl:DisjointClasses>
+       <owl:Class IRI="Woman"/>
+       <owl:Class IRI="Man"/>
+   </owl:DisjointClasses>
+   <owl:DisjointClasses>
+     <owl:Class IRI="Father"/>
+     <owl:Class IRI="Mother"/>
+     <owl:Class IRI="YoungChild"/>
+   </owl:DisjointClasses>
+
+   <owl:DifferentIndividuals>
+     <owl:NamedIndividual IRI="John"/>
+     <owl:NamedIndividual IRI="Bill"/>
+   </owl:DifferentIndividuals>
+
+   <owl:SameIndividual>
+     <owl:NamedIndividual IRI="James"/>
+     <owl:NamedIndividual IRI="Jim"/>
+   </owl:SameIndividual>
+   <owl:SameIndividual>
+     <owl:NamedIndividual IRI="John"/>
+     <owl:NamedIndividual abbreviatedIRI="otherOnt:JohnBrown"/>
+   </owl:SameIndividual>
+   <owl:SameIndividual>
+     <owl:NamedIndividual IRI="Mary"/>
+     <owl:NamedIndividual abbreviatedIRI="otherOnt:MaryBrown"/>
+   </owl:SameIndividual>
+
+   <owl:ObjectPropertyAssertion>
+     <owl:ObjectProperty IRI="hasWife"/>
+     <owl:NamedIndividual IRI="John"/>
+     <owl:NamedIndividual IRI="Mary"/>
+   </owl:ObjectPropertyAssertion>
+
+   <owl:DataPropertyAssertion>
+     <owl:DataProperty IRI="hasAge"/>
+     <owl:NamedIndividual IRI="John"/>
+     <owl:Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">51</owl:Literal>
+   </owl:DataPropertyAssertion>
+
+   <owl:ClassAssertion>
+       <owl:Class IRI="Person"/>
+       <owl:NamedIndividual IRI="Mary"/>
+   </owl:ClassAssertion>
+   <owl:ClassAssertion>
+       <owl:Class IRI="Woman"/>
+       <owl:NamedIndividual IRI="Mary"/>
+   </owl:ClassAssertion>
+   <owl:ClassAssertion>
+     <owl:ObjectIntersectionOf>
+       <owl:Class IRI="Person"/>
+       <owl:ObjectComplementOf>
+         <owl:Class IRI="Parent"/>
+       </owl:ObjectComplementOf>
+     </owl:ObjectIntersectionOf>
+     <owl:NamedIndividual IRI="Jack"/>
+   </owl:ClassAssertion>
+
+   <owl:ClassAssertion>
+     <owl:ObjectMaxCardinality cardinality="4">
+       <owl:ObjectProperty IRI="hasChild"/>
+       <owl:Class IRI="Parent"/>
+     </owl:ObjectMaxCardinality>
+     <owl:NamedIndividual IRI="John"/>
+   </owl:ClassAssertion>
+   <owl:ClassAssertion>
+     <owl:ObjectMinCardinality cardinality="2">
+       <owl:ObjectProperty IRI="hasChild"/>
+       <owl:Class IRI="Parent"/>
+     </owl:ObjectMinCardinality>
+     <owl:NamedIndividual IRI="John"/>
+   </owl:ClassAssertion>
+   <owl:ClassAssertion>
+     <owl:ObjectExactCardinality cardinality="3">
+       <owl:ObjectProperty IRI="hasChild"/>
+       <owl:Class IRI="Parent"/>
+     </owl:ObjectExactCardinality>
+     <owl:NamedIndividual IRI="John"/>
+   </owl:ClassAssertion>
+   <owl:ClassAssertion>
+     <owl:ObjectExactCardinality cardinality="5">
+       <owl:ObjectProperty IRI="hasChild"/>
+     </owl:ObjectExactCardinality>
+     <owl:NamedIndividual IRI="John"/>
+   </owl:ClassAssertion>
+   <owl:ClassAssertion>
+     <owl:Class IRI="Father"/>
+     <owl:NamedIndividual IRI="John"/>
+   </owl:ClassAssertion>
+   <owl:ClassAssertion>
+     <owl:Class IRI="Person"/>
+     <owl:NamedIndividual IRI="John"/>
+   </owl:ClassAssertion>
+
+   <owl:ClassAssertion>
+     <owl:Class IRI="SocialRole"/>
+     <owl:NamedIndividual IRI="Father"/>
+   </owl:ClassAssertion>
+
+   <owl:NegativeObjectPropertyAssertion>
+     <owl:ObjectProperty IRI="hasWife"/>
+     <owl:NamedIndividual IRI="Bill"/>
+     <owl:NamedIndividual IRI="Mary"/>
+   </owl:NegativeObjectPropertyAssertion>
+   <owl:NegativeDataPropertyAssertion>
+     <owl:DataProperty IRI="hasAge"/>
+     <owl:NamedIndividual IRI="Jack"/>
+     <owl:Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">53</owl:Literal>
+   </owl:NegativeDataPropertyAssertion>
+   <owl:NegativeObjectPropertyAssertion>
+     <owl:ObjectProperty IRI="hasDaughter"/>
+     <owl:NamedIndividual IRI="Bill"/>
+     <owl:NamedIndividual IRI="Susan"/>
+   </owl:NegativeObjectPropertyAssertion>
+    </Tell>
+
+</RequestMessage>

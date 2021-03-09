@@ -1,0 +1,229 @@
+
+
+NamespacePrefix(
+  NIL 
+  <http://www.owllink.org/owllink#> )
+
+NamespacePrefix(
+  "xsd" 
+  <http://www.w3.org/2001/XMLSchema#> )
+
+NamespacePrefix(
+  "owl" 
+  <http://www.w3.org/2002/07/owl#> )
+
+RequestMessage(
+  
+  CreateKB(
+    Attribute(
+      kb 
+      <http://owllink.org/test/kb1/> ))
+  
+  Tell(
+    Attribute(
+      kb 
+      <http://owllink.org/test/kb1/> )
+    owl.SubClassOf(
+      Woman 
+      Person )
+    owl.SubClassOf(
+      Mother 
+      Woman )
+    owl.SubClassOf(
+      Grandfather 
+      owl.ObjectIntersectionOf(
+        Man 
+        Parent ))
+    owl.SubClassOf(
+      Father 
+      owl.ObjectIntersectionOf(
+        Man 
+        Parent ))
+    owl.SubClassOf(
+      ChildlessPerson 
+      owl.ObjectIntersectionOf(
+        Person 
+        owl.ObjectComplementOf(
+          owl.ObjectSomeValuesFrom(
+            owl.ObjectInverseOf(
+              hasParent )
+            owl:Thing ))))
+    owl.SubClassOf(
+      owl.ObjectIntersectionOf(
+        owl.ObjectOneOf(
+          Mary 
+          Bill 
+          Meg )
+        Female )
+      owl.ObjectIntersectionOf(
+        Parent 
+        owl.ObjectMaxCardinality(
+          "1" 
+          hasChild )
+        owl.ObjectAllValuesFrom(
+          hasChild 
+          Female )))
+    owl.SubClassOf(
+      Teenager 
+      owl.DataSomeValuesFrom(
+        hasAge 
+        owl.DatatypeRestriction(
+          Datatype(
+            <http://www.w3.org/2001/XMLSchema#integer> )
+          FacetRestriction(
+            <http://www.w3.org/2001/XMLSchema#minExclusive> 
+            "12"^^<http://www.w3.org/2001/XMLSchema#integer> )
+          FacetRestriction(
+            <http://www.w3.org/2001/XMLSchema#maxInclusive> 
+            "19"^^<http://www.w3.org/2001/XMLSchema#integer> ))))
+    owl.SubClassOf(
+      owl.Annotation(
+        <http://www.w3.org/2000/01/rdf-schema#comment> 
+        "\"States that every man is a person.\""^^xsd:string )
+      Man 
+      Person )
+    owl.EquivalentClasses(
+      HappyPerson 
+      owl.ObjectIntersectionOf(
+        owl.ObjectAllValuesFrom(
+          hasChild 
+          HappyPerson )
+        owl.ObjectSomeValuesFrom(
+          hasChild 
+          HappyPerson )))
+    owl.EquivalentClasses(
+      JohnsChildren 
+      owl.ObjectHasValue(
+        hasParent 
+        John ))
+    owl.EquivalentClasses(
+      NarcisticPerson 
+      owl.ObjectHasSelf(
+        loves ))
+    owl.EquivalentClasses(
+      Orphan 
+      owl.ObjectAllValuesFrom(
+        owl.ObjectInverseOf(
+          hasChild )
+        Dead ))
+    owl.EquivalentClasses(
+      MyBirthdayGuests 
+      owl.ObjectOneOf(
+        Bill 
+        John 
+        Mary ))
+    owl.EquivalentClasses(
+      Adult 
+      otherOnt:Grownup )
+    owl.EquivalentClasses(
+      Parent 
+      owl.ObjectSomeValuesFrom(
+        hasChild 
+        Person ))
+    owl.EquivalentClasses(
+      Parent 
+      owl.ObjectSomeValuesFrom(
+        hasChild 
+        Person ))
+    owl.EquivalentClasses(
+      Person 
+      Human )
+    owl.EquivalentClasses(
+      Mother 
+      owl.ObjectIntersectionOf(
+        Woman 
+        Parent ))
+    owl.EquivalentClasses(
+      Parent 
+      owl.ObjectUnionOf(
+        Mother 
+        Father ))
+    owl.EquivalentClasses(
+      ChildlessPerson 
+      owl.ObjectIntersectionOf(
+        Person 
+        owl.ObjectComplementOf(
+          Parent )))
+    owl.DisjointClasses(
+      Woman 
+      Man )
+    owl.DisjointClasses(
+      Father 
+      Mother 
+      YoungChild )
+    owl.DifferentIndividuals(
+      John 
+      Bill )
+    owl.SameIndividual(
+      James 
+      Jim )
+    owl.SameIndividual(
+      John 
+      otherOnt:JohnBrown )
+    owl.SameIndividual(
+      Mary 
+      otherOnt:MaryBrown )
+    owl.ObjectPropertyAssertion(
+      hasWife 
+      John 
+      Mary )
+    owl.DataPropertyAssertion(
+      hasAge 
+      John 
+      "51"^^<http://www.w3.org/2001/XMLSchema#integer> )
+    owl.ClassAssertion(
+      Person 
+      Mary )
+    owl.ClassAssertion(
+      Woman 
+      Mary )
+    owl.ClassAssertion(
+      owl.ObjectIntersectionOf(
+        Person 
+        owl.ObjectComplementOf(
+          Parent ))
+      Jack )
+    owl.ClassAssertion(
+      owl.ObjectMaxCardinality(
+        "4" 
+        hasChild 
+        Parent )
+      John )
+    owl.ClassAssertion(
+      owl.ObjectMinCardinality(
+        "2" 
+        hasChild 
+        Parent )
+      John )
+    owl.ClassAssertion(
+      owl.ObjectExactCardinality(
+        "3" 
+        hasChild 
+        Parent )
+      John )
+    owl.ClassAssertion(
+      owl.ObjectExactCardinality(
+        "5" 
+        hasChild )
+      John )
+    owl.ClassAssertion(
+      Father 
+      John )
+    owl.ClassAssertion(
+      Person 
+      John )
+    owl.ClassAssertion(
+      SocialRole 
+      Father )
+    owl.NegativeObjectPropertyAssertion(
+      hasWife 
+      Bill 
+      Mary )
+    owl.NegativeDataPropertyAssertion(
+      hasAge 
+      Jack 
+      "53"^^<http://www.w3.org/2001/XMLSchema#integer> )
+    owl.NegativeObjectPropertyAssertion(
+      hasDaughter 
+      Bill 
+      Susan )))

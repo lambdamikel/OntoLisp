@@ -1,0 +1,204 @@
+
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLSubClassAxiom| |Woman| |Person|
+                                                             |http://owllink.org/test/kb1/|) of type OWLSubClassAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLSubClassAxiom| |Mother| |Woman|
+                                                             |http://owllink.org/test/kb1/|) of type OWLSubClassAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLSubClassAxiom| |Grandfather|
+                                                             (AND |Parent|
+                                                                  |Man|)
+                                                             |http://owllink.org/test/kb1/|) of type OWLSubClassAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLSubClassAxiom| |Father|
+                                                             (AND |Parent|
+                                                                  |Man|)
+                                                             |http://owllink.org/test/kb1/|) of type OWLSubClassAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLSubClassAxiom| |ChildlessPerson|
+                                                             (AND
+                                                              (NOT
+                                                               (SOME
+                                                                (INV
+                                                                 |hasParent|)
+                                                                |Thing|))
+                                                              |Person|)
+                                                             |http://owllink.org/test/kb1/|) of type OWLSubClassAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLSubClassAxiom|
+                                (AND |Female| (ONE-OF |Meg| |Bill| |Mary|))
+                                (AND (ALL |hasChild| |Female|)
+                                     (AT-MOST 1 |hasChild|) |Parent|)
+                                |http://owllink.org/test/kb1/|) of type OWLSubClassAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLSubClassAxiom| |Man| |Person|
+                                                             |http://owllink.org/test/kb1/|) of type OWLSubClassAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLEquivalentClassesAxiom|
+                                (|HappyPerson|
+                                 (AND (SOME |hasChild| |HappyPerson|)
+                                      (ALL |hasChild| |HappyPerson|)))
+                                |http://owllink.org/test/kb1/|) of type OWLEquivalentClassesAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLEquivalentClassesAxiom|
+                                (|JohnsChildren|
+                                 (HAS-VALUE |hasParent| |John|))
+                                |http://owllink.org/test/kb1/|) of type OWLEquivalentClassesAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLEquivalentClassesAxiom|
+                                (|NarcisticPerson| (SELF-REFERENCE |loves|))
+                                |http://owllink.org/test/kb1/|) of type OWLEquivalentClassesAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLEquivalentClassesAxiom|
+                                (|Orphan| (ALL (INV |hasChild|) |Dead|))
+                                |http://owllink.org/test/kb1/|) of type OWLEquivalentClassesAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLEquivalentClassesAxiom|
+                                (|MyBirthdayGuests|
+                                 (ONE-OF |Mary| |John| |Bill|))
+                                |http://owllink.org/test/kb1/|) of type OWLEquivalentClassesAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLEquivalentClassesAxiom|
+                                (|Adult| |Grownup|)
+                                |http://owllink.org/test/kb1/|) of type OWLEquivalentClassesAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLEquivalentClassesAxiom|
+                                (|Parent| (SOME |hasChild| |Person|))
+                                |http://owllink.org/test/kb1/|) of type OWLEquivalentClassesAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLEquivalentClassesAxiom|
+                                (|Parent| (SOME |hasChild| |Person|))
+                                |http://owllink.org/test/kb1/|) of type OWLEquivalentClassesAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLEquivalentClassesAxiom|
+                                (|Person| |Human|)
+                                |http://owllink.org/test/kb1/|) of type OWLEquivalentClassesAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLEquivalentClassesAxiom|
+                                (|Mother| (AND |Parent| |Woman|))
+                                |http://owllink.org/test/kb1/|) of type OWLEquivalentClassesAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLEquivalentClassesAxiom|
+                                (|Parent| (OR |Father| |Mother|))
+                                |http://owllink.org/test/kb1/|) of type OWLEquivalentClassesAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLEquivalentClassesAxiom|
+                                (|ChildlessPerson|
+                                 (AND (NOT |Parent|) |Person|))
+                                |http://owllink.org/test/kb1/|) of type OWLEquivalentClassesAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLDisjointClassesAxiom|
+                                (|Woman| |Man|) |http://owllink.org/test/kb1/|) of type OWLDisjointClassesAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLDisjointClassesAxiom|
+                                (|Father| |Mother| |YoungChild|)
+                                |http://owllink.org/test/kb1/|) of type OWLDisjointClassesAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLDifferentIndividualsAxiom|
+                                (|John| |Bill|) |http://owllink.org/test/kb1/|) of type OWLDifferentIndividualsAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLSameIndividualsAxiom|
+                                (|James| |Jim|) |http://owllink.org/test/kb1/|) of type OWLSameIndividualsAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLSameIndividualsAxiom|
+                                (|John| |JohnBrown|)
+                                |http://owllink.org/test/kb1/|) of type OWLSameIndividualsAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLSameIndividualsAxiom|
+                                (|Mary| |MaryBrown|)
+                                |http://owllink.org/test/kb1/|) of type OWLSameIndividualsAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLObjectPropertyAssertionAxiom|
+                                |John| |hasWife| |Mary|
+                                |http://owllink.org/test/kb1/|) of type OWLObjectPropertyAssertionAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLDataPropertyAssertionAxiom|
+                                |John| |hasAge|
+                                (D-LITERAL "51"
+                                 (D-BASE-TYPE
+                                  |http://www.w3.org/2001/XMLSchema#integer|))
+                                |http://owllink.org/test/kb1/|) of type OWLDataPropertyAssertionAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLClassAssertionAxiom| |Mary|
+                                                                   |Person|
+                                                                   |http://owllink.org/test/kb1/|) of type OWLClassAssertionAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLClassAssertionAxiom| |Mary|
+                                                                   |Woman|
+                                                                   |http://owllink.org/test/kb1/|) of type OWLClassAssertionAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLClassAssertionAxiom| |Jack|
+                                                                   (AND
+                                                                    (NOT
+                                                                     |Parent|)
+                                                                    |Person|)
+                                                                   |http://owllink.org/test/kb1/|) of type OWLClassAssertionAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLClassAssertionAxiom| |John|
+                                                                   (AT-MOST 4
+                                                                    |hasChild|
+                                                                    |Parent|)
+                                                                   |http://owllink.org/test/kb1/|) of type OWLClassAssertionAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLClassAssertionAxiom| |John|
+                                                                   (AT-LEAST 2
+                                                                    |hasChild|
+                                                                    |Parent|)
+                                                                   |http://owllink.org/test/kb1/|) of type OWLClassAssertionAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLClassAssertionAxiom| |John|
+                                                                   (EXACTLY 3
+                                                                    |hasChild|
+                                                                    |Parent|)
+                                                                   |http://owllink.org/test/kb1/|) of type OWLClassAssertionAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLClassAssertionAxiom| |John|
+                                                                   (EXACTLY 5
+                                                                    |hasChild|)
+                                                                   |http://owllink.org/test/kb1/|) of type OWLClassAssertionAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLClassAssertionAxiom| |John|
+                                                                   |Father|
+                                                                   |http://owllink.org/test/kb1/|) of type OWLClassAssertionAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLClassAssertionAxiom| |John|
+                                                                   |Person|
+                                                                   |http://owllink.org/test/kb1/|) of type OWLClassAssertionAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLClassAssertionAxiom| |Father|
+                                                                   |SocialRole|
+                                                                   |http://owllink.org/test/kb1/|) of type OWLClassAssertionAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLNegativeObjectPropertyAssertionAxiom|
+                                |Bill| |hasWife| |Mary|
+                                |http://owllink.org/test/kb1/|) of type OWLNegativeObjectPropertyAssertionAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLNegativeDataPropertyAssertionAxiom|
+                                |Jack| |hasAge|
+                                (D-LITERAL "53"
+                                 (D-BASE-TYPE
+                                  |http://www.w3.org/2001/XMLSchema#integer|))
+                                |http://owllink.org/test/kb1/|) of type OWLNegativeDataPropertyAssertionAxiom
+
+OWLAPI Warning: Ignoring axiom (|OWLAPI-getOWLNegativeObjectPropertyAssertionAxiom|
+                                |Bill| |hasDaughter| |Susan|
+                                |http://owllink.org/test/kb1/|) of type OWLNegativeObjectPropertyAssertionAxiom
+
+(ResponseMessage () 
+  
+  (KB (:kb |http://owllink.org/test/kb1/| ) )
+  
+  (SyntaxError (:error "Ignored non-valid OWLlink Tell requests: ((|SubClassOf| |Teenager|
+                                           (|DataSomeValuesFrom| |hasAge|
+                                            (|DatatypeRestriction|
+                                             (|Datatype| NIL
+                                              'http://www.w3.org/2001/XMLSchema#integer')
+                                             (|FacetRestriction| NIL
+                                              'http://www.w3.org/2001/XMLSchema#minExclusive'
+                                              (|OWLLiteral| '12'
+                                               'http://www.w3.org/2001/XMLSchema#integer'))
+                                             (|FacetRestriction| NIL
+                                              'http://www.w3.org/2001/XMLSchema#maxInclusive'
+                                              (|OWLLiteral| '19'
+                                               'http://www.w3.org/2001/XMLSchema#integer'))))))" ) ))

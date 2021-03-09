@@ -1,0 +1,4103 @@
+// Ontology "http://cohse.semanticweb.org/ontologies/people" rendered by the Lisp-OWLAPI
+
+Prefix(:=<http://cohse.semanticweb.org/ontologies/people#>)
+
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+Prefix(skos:=<http://www.w3.org/2004/02/skos/core#>)
+
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+
+Ontology(<http://cohse.semanticweb.org/ontologies/people> 
+
+// Axiom ID 8
+
+// (|OWLOntologyAnnotationAxiom|
+//  (|Annotation| |http://www.w3.org/2002/07/owl#versionInfo|
+//   (D-LITERAL "2.8" NIL)))
+  
+  Annotation(
+    owl:versionInfo "2.8"^^xsd:string)
+
+// Axiom ID 303
+
+// (|OWLDeclarationAxiom|
+//  (|DataProperty|
+//   |http://cohse.semanticweb.org/ontologies/people#service_number|))
+  
+  Declaration(
+    DataProperty(
+      :service_number ))
+
+// Axiom ID 300
+
+// (|OWLDeclarationAxiom|
+//  (|ObjectProperty| |http://cohse.semanticweb.org/ontologies/people#works_for|))
+  
+  Declaration(
+    ObjectProperty(
+      :works_for ))
+
+// Axiom ID 296
+
+// (|OWLDeclarationAxiom|
+//  (|ObjectProperty| |http://cohse.semanticweb.org/ontologies/people#reads|))
+  
+  Declaration(
+    ObjectProperty(
+      :reads ))
+
+// Axiom ID 293
+
+// (|OWLDeclarationAxiom|
+//  (|ObjectProperty| |http://cohse.semanticweb.org/ontologies/people#part_of|))
+  
+  Declaration(
+    ObjectProperty(
+      :part_of ))
+
+// Axiom ID 290
+
+// (|OWLDeclarationAxiom|
+//  (|ObjectProperty| |http://cohse.semanticweb.org/ontologies/people#likes|))
+  
+  Declaration(
+    ObjectProperty(
+      :likes ))
+
+// Axiom ID 287
+
+// (|OWLDeclarationAxiom|
+//  (|ObjectProperty| |http://cohse.semanticweb.org/ontologies/people#is_pet_of|))
+  
+  Declaration(
+    ObjectProperty(
+      :is_pet_of ))
+
+// Axiom ID 280
+
+// (|OWLDeclarationAxiom|
+//  (|ObjectProperty| |http://cohse.semanticweb.org/ontologies/people#has_pet|))
+  
+  Declaration(
+    ObjectProperty(
+      :has_pet ))
+
+// Axiom ID 276
+
+// (|OWLDeclarationAxiom|
+//  (|ObjectProperty| |http://cohse.semanticweb.org/ontologies/people#has_part|))
+  
+  Declaration(
+    ObjectProperty(
+      :has_part ))
+
+// Axiom ID 273
+
+// (|OWLDeclarationAxiom|
+//  (|ObjectProperty| |http://cohse.semanticweb.org/ontologies/people#has_parent|))
+  
+  Declaration(
+    ObjectProperty(
+      :has_parent ))
+
+// Axiom ID 268
+
+// (|OWLDeclarationAxiom|
+//  (|ObjectProperty| |http://cohse.semanticweb.org/ontologies/people#has_mother|))
+  
+  Declaration(
+    ObjectProperty(
+      :has_mother ))
+
+// Axiom ID 263
+
+// (|OWLDeclarationAxiom|
+//  (|ObjectProperty| |http://cohse.semanticweb.org/ontologies/people#has_father|))
+  
+  Declaration(
+    ObjectProperty(
+      :has_father ))
+
+// Axiom ID 260
+
+// (|OWLDeclarationAxiom|
+//  (|ObjectProperty| |http://cohse.semanticweb.org/ontologies/people#has_child|))
+  
+  Declaration(
+    ObjectProperty(
+      :has_child ))
+
+// Axiom ID 256
+
+// (|OWLDeclarationAxiom|
+//  (|ObjectProperty| |http://cohse.semanticweb.org/ontologies/people#eats|))
+  
+  Declaration(
+    ObjectProperty(
+      :eats ))
+
+// Axiom ID 252
+
+// (|OWLDeclarationAxiom|
+//  (|ObjectProperty| |http://cohse.semanticweb.org/ontologies/people#eaten_by|))
+  
+  Declaration(
+    ObjectProperty(
+      :eaten_by ))
+
+// Axiom ID 249
+
+// (|OWLDeclarationAxiom|
+//  (|ObjectProperty| |http://cohse.semanticweb.org/ontologies/people#drives|))
+  
+  Declaration(
+    ObjectProperty(
+      :drives ))
+
+// Axiom ID 245
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#young|))
+  
+  Declaration(
+    Class(
+      :young ))
+
+// Axiom ID 241
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#woman|))
+  
+  Declaration(
+    Class(
+      :woman ))
+
+// Axiom ID 236
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#white_van_man|))
+  
+  Declaration(
+    Class(
+      :white_van_man ))
+
+// Axiom ID 233
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#white_thing|))
+  
+  Declaration(
+    Class(
+      :white_thing ))
+
+// Axiom ID 230
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#vehicle|))
+  
+  Declaration(
+    Class(
+      :vehicle ))
+
+// Axiom ID 226
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#vegetarian|))
+  
+  Declaration(
+    Class(
+      :vegetarian ))
+
+// Axiom ID 222
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#van_driver|))
+  
+  Declaration(
+    Class(
+      :van_driver ))
+
+// Axiom ID 218
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#van|))
+  
+  Declaration(
+    Class(
+      :van ))
+
+// Axiom ID 214
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#truck|))
+  
+  Declaration(
+    Class(
+      :truck ))
+
+// Axiom ID 210
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#tree|))
+  
+  Declaration(
+    Class(
+      :tree ))
+
+// Axiom ID 206
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#tiger|))
+  
+  Declaration(
+    Class(
+      :tiger ))
+
+// Axiom ID 201
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#tabloid|))
+  
+  Declaration(
+    Class(
+      :tabloid ))
+
+// Axiom ID 196
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#sheep|))
+  
+  Declaration(
+    Class(
+      :sheep ))
+
+// Axiom ID 192
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#red_top|))
+  
+  Declaration(
+    Class(
+      :red_top ))
+
+// Axiom ID 188
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#quality_broadsheet|))
+  
+  Declaration(
+    Class(
+      :quality_broadsheet ))
+
+// Axiom ID 185
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#publication|))
+  
+  Declaration(
+    Class(
+      :publication ))
+
+// Axiom ID 182
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#plant|))
+  
+  Declaration(
+    Class(
+      :plant ))
+
+// Axiom ID 178
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#pet_owner|))
+  
+  Declaration(
+    Class(
+      :pet_owner ))
+
+// Axiom ID 174
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#pet|))
+  
+  Declaration(
+    Class(
+      :pet ))
+
+// Axiom ID 170
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#person|))
+  
+  Declaration(
+    Class(
+      :person ))
+
+// Axiom ID 165
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#old_lady|))
+  
+  Declaration(
+    Class(
+      :old_lady ))
+
+// Axiom ID 160
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#newspaper|))
+  
+  Declaration(
+    Class(
+      :newspaper ))
+
+// Axiom ID 156
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#man|))
+  
+  Declaration(
+    Class(
+      :man ))
+
+// Axiom ID 153
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#male|))
+  
+  Declaration(
+    Class(
+      :male ))
+
+// Axiom ID 149
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#magazine|))
+  
+  Declaration(
+    Class(
+      :magazine ))
+
+// Axiom ID 145
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#mad_cow|))
+  
+  Declaration(
+    Class(
+      :mad_cow ))
+
+// Axiom ID 141
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#lorry_driver|))
+  
+  Declaration(
+    Class(
+      :lorry_driver ))
+
+// Axiom ID 137
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#lorry|))
+  
+  Declaration(
+    Class(
+      :lorry ))
+
+// Axiom ID 133
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#leaf|))
+  
+  Declaration(
+    Class(
+      :leaf ))
+
+// Axiom ID 129
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#kid|))
+  
+  Declaration(
+    Class(
+      :kid ))
+
+// Axiom ID 125
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#haulage_worker|))
+  
+  Declaration(
+    Class(
+      :haulage_worker ))
+
+// Axiom ID 121
+
+// (|OWLDeclarationAxiom|
+//  (|Class|
+//   |http://cohse.semanticweb.org/ontologies/people#haulage_truck_driver|))
+  
+  Declaration(
+    Class(
+      :haulage_truck_driver ))
+
+// Axiom ID 117
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#haulage_company|))
+  
+  Declaration(
+    Class(
+      :haulage_company ))
+
+// Axiom ID 113
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#grownup|))
+  
+  Declaration(
+    Class(
+      :grownup ))
+
+// Axiom ID 109
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#grass|))
+  
+  Declaration(
+    Class(
+      :grass ))
+
+// Axiom ID 104
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#giraffe|))
+  
+  Declaration(
+    Class(
+      :giraffe ))
+
+// Axiom ID 101
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#female|))
+  
+  Declaration(
+    Class(
+      :female ))
+
+// Axiom ID 97
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#elderly|))
+  
+  Declaration(
+    Class(
+      :elderly ))
+
+// Axiom ID 93
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#duck|))
+  
+  Declaration(
+    Class(
+      :duck ))
+
+// Axiom ID 88
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#driver|))
+  
+  Declaration(
+    Class(
+      :driver ))
+
+// Axiom ID 84
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#dog_owner|))
+  
+  Declaration(
+    Class(
+      :dog_owner ))
+
+// Axiom ID 80
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#dog_liker|))
+  
+  Declaration(
+    Class(
+      :dog_liker ))
+
+// Axiom ID 75
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#dog|))
+  
+  Declaration(
+    Class(
+      :dog ))
+
+// Axiom ID 71
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#cow|))
+  
+  Declaration(
+    Class(
+      :cow ))
+
+// Axiom ID 68
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#company|))
+  
+  Declaration(
+    Class(
+      :company ))
+
+// Axiom ID 64
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#cat_owner|))
+  
+  Declaration(
+    Class(
+      :cat_owner ))
+
+// Axiom ID 60
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#cat_liker|))
+  
+  Declaration(
+    Class(
+      :cat_liker ))
+
+// Axiom ID 55
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#cat|))
+  
+  Declaration(
+    Class(
+      :cat ))
+
+// Axiom ID 51
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#car|))
+  
+  Declaration(
+    Class(
+      :car ))
+
+// Axiom ID 47
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#bus_driver|))
+  
+  Declaration(
+    Class(
+      :bus_driver ))
+
+// Axiom ID 43
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#bus_company|))
+  
+  Declaration(
+    Class(
+      :bus_company ))
+
+// Axiom ID 39
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#bus|))
+  
+  Declaration(
+    Class(
+      :bus ))
+
+// Axiom ID 34
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#broadsheet|))
+  
+  Declaration(
+    Class(
+      :broadsheet ))
+
+// Axiom ID 31
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#brain|))
+  
+  Declaration(
+    Class(
+      :brain ))
+
+// Axiom ID 28
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#bone|))
+  
+  Declaration(
+    Class(
+      :bone ))
+
+// Axiom ID 24
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#bicycle|))
+  
+  Declaration(
+    Class(
+      :bicycle ))
+
+// Axiom ID 20
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#animal_lover|))
+  
+  Declaration(
+    Class(
+      :animal_lover ))
+
+// Axiom ID 16
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#animal|))
+  
+  Declaration(
+    Class(
+      :animal ))
+
+// Axiom ID 12
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#adult|))
+  
+  Declaration(
+    Class(
+      :adult ))
+
+// Axiom ID 9
+
+// (|OWLDeclarationAxiom|
+//  (|Class| |http://cohse.semanticweb.org/ontologies/people#Axiom_2|))
+  
+  Declaration(
+    Class(
+      :Axiom_2 ))
+
+// Axiom ID 248
+
+// (|OWLDisjointClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#young|
+//   |http://cohse.semanticweb.org/ontologies/people#adult|))
+  
+  DisjointClasses(
+    :young 
+    :adult )
+
+// Axiom ID 244
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#woman|
+//   (AND |http://cohse.semanticweb.org/ontologies/people#person|
+//        |http://cohse.semanticweb.org/ontologies/people#female|
+//        |http://cohse.semanticweb.org/ontologies/people#adult|)))
+  
+  EquivalentClasses(
+    :woman 
+    ObjectIntersectionOf(
+      :person 
+      :female 
+      :adult ))
+
+// Axiom ID 240
+
+// (|OWLSubClassAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#white_van_man|
+//  (ALL |http://cohse.semanticweb.org/ontologies/people#reads|
+//   |http://cohse.semanticweb.org/ontologies/people#tabloid|))
+  
+  SubClassOf(
+    :white_van_man 
+    ObjectAllValuesFrom(
+      :reads 
+      :tabloid ))
+
+// Axiom ID 239
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#white_van_man|
+//   (AND |http://cohse.semanticweb.org/ontologies/people#man|
+//        (SOME |http://cohse.semanticweb.org/ontologies/people#drives|
+//              (AND |http://cohse.semanticweb.org/ontologies/people#van|
+//                   |http://cohse.semanticweb.org/ontologies/people#white_thing|)))))
+  
+  EquivalentClasses(
+    :white_van_man 
+    ObjectIntersectionOf(
+      :man 
+      ObjectSomeValuesFrom(
+        :drives 
+        ObjectIntersectionOf(
+          :van 
+          :white_thing ))))
+
+// Axiom ID 229
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#vegetarian|
+//   (AND
+//    (ALL |http://cohse.semanticweb.org/ontologies/people#eats|
+//     (NOT
+//      (SOME |http://cohse.semanticweb.org/ontologies/people#part_of|
+//            |http://cohse.semanticweb.org/ontologies/people#animal|)))
+//    (ALL |http://cohse.semanticweb.org/ontologies/people#eats|
+//     (NOT |http://cohse.semanticweb.org/ontologies/people#animal|))
+//    |http://cohse.semanticweb.org/ontologies/people#animal|)))
+  
+  EquivalentClasses(
+    :vegetarian 
+    ObjectIntersectionOf(
+      ObjectAllValuesFrom(
+        :eats 
+        ObjectComplementOf(
+          ObjectSomeValuesFrom(
+            :part_of 
+            :animal )))
+      ObjectAllValuesFrom(
+        :eats 
+        ObjectComplementOf(
+          :animal ))
+      :animal ))
+
+// Axiom ID 225
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#van_driver|
+//   (AND |http://cohse.semanticweb.org/ontologies/people#person|
+//        (SOME |http://cohse.semanticweb.org/ontologies/people#drives|
+//              |http://cohse.semanticweb.org/ontologies/people#van|))))
+  
+  EquivalentClasses(
+    :van_driver 
+    ObjectIntersectionOf(
+      :person 
+      ObjectSomeValuesFrom(
+        :drives 
+        :van )))
+
+// Axiom ID 221
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#van|
+//  |http://cohse.semanticweb.org/ontologies/people#vehicle|)
+  
+  SubClassOf(
+    :van 
+    :vehicle )
+
+// Axiom ID 217
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#truck|
+//  |http://cohse.semanticweb.org/ontologies/people#vehicle|)
+  
+  SubClassOf(
+    :truck 
+    :vehicle )
+
+// Axiom ID 213
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#tree|
+//  |http://cohse.semanticweb.org/ontologies/people#plant|)
+  
+  SubClassOf(
+    :tree 
+    :plant )
+
+// Axiom ID 209
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#tiger|
+//  |http://cohse.semanticweb.org/ontologies/people#animal|)
+  
+  SubClassOf(
+    :tiger 
+    :animal )
+
+// Axiom ID 205
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#tabloid|
+//  |http://cohse.semanticweb.org/ontologies/people#newspaper|)
+  
+  SubClassOf(
+    :tabloid 
+    :newspaper )
+
+// Axiom ID 204
+
+// (|OWLDisjointClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#tabloid|
+//   |http://cohse.semanticweb.org/ontologies/people#broadsheet|))
+  
+  DisjointClasses(
+    :tabloid 
+    :broadsheet )
+
+// Axiom ID 200
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#sheep|
+//  (ALL |http://cohse.semanticweb.org/ontologies/people#eats|
+//   |http://cohse.semanticweb.org/ontologies/people#grass|))
+  
+  SubClassOf(
+    :sheep 
+    ObjectAllValuesFrom(
+      :eats 
+      :grass ))
+
+// Axiom ID 199
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#sheep|
+//  |http://cohse.semanticweb.org/ontologies/people#animal|)
+  
+  SubClassOf(
+    :sheep 
+    :animal )
+
+// Axiom ID 195
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#red_top|
+//  |http://cohse.semanticweb.org/ontologies/people#tabloid|)
+  
+  SubClassOf(
+    :red_top 
+    :tabloid )
+
+// Axiom ID 191
+
+// (|OWLSubClassAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#quality_broadsheet|
+//  |http://cohse.semanticweb.org/ontologies/people#broadsheet|)
+  
+  SubClassOf(
+    :quality_broadsheet 
+    :broadsheet )
+
+// Axiom ID 181
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#pet_owner|
+//   (AND |http://cohse.semanticweb.org/ontologies/people#person|
+//        (SOME |http://cohse.semanticweb.org/ontologies/people#has_pet|
+//              |http://cohse.semanticweb.org/ontologies/people#animal|))))
+  
+  EquivalentClasses(
+    :pet_owner 
+    ObjectIntersectionOf(
+      :person 
+      ObjectSomeValuesFrom(
+        :has_pet 
+        :animal )))
+
+// Axiom ID 177
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#pet|
+//   (SOME |http://cohse.semanticweb.org/ontologies/people#is_pet_of| TOP)))
+  
+  EquivalentClasses(
+    :pet 
+    ObjectSomeValuesFrom(
+      :is_pet_of 
+      owl:Thing ))
+
+// Axiom ID 173
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#person|
+//  |http://cohse.semanticweb.org/ontologies/people#animal|)
+  
+  SubClassOf(
+    :person 
+    :animal )
+
+// Axiom ID 169
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#old_lady|
+//  (AND
+//   (SOME |http://cohse.semanticweb.org/ontologies/people#has_pet|
+//         |http://cohse.semanticweb.org/ontologies/people#animal|)
+//   (ALL |http://cohse.semanticweb.org/ontologies/people#has_pet|
+//    |http://cohse.semanticweb.org/ontologies/people#cat|)))
+  
+  SubClassOf(
+    :old_lady 
+    ObjectIntersectionOf(
+      ObjectSomeValuesFrom(
+        :has_pet 
+        :animal )
+      ObjectAllValuesFrom(
+        :has_pet 
+        :cat )))
+
+// Axiom ID 168
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#old_lady|
+//   (AND |http://cohse.semanticweb.org/ontologies/people#person|
+//        |http://cohse.semanticweb.org/ontologies/people#female|
+//        |http://cohse.semanticweb.org/ontologies/people#elderly|)))
+  
+  EquivalentClasses(
+    :old_lady 
+    ObjectIntersectionOf(
+      :person 
+      :female 
+      :elderly ))
+
+// Axiom ID 164
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#newspaper|
+//  (OR |http://cohse.semanticweb.org/ontologies/people#broadsheet|
+//      |http://cohse.semanticweb.org/ontologies/people#tabloid|))
+  
+  SubClassOf(
+    :newspaper 
+    ObjectUnionOf(
+      :broadsheet 
+      :tabloid ))
+
+// Axiom ID 163
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#newspaper|
+//  |http://cohse.semanticweb.org/ontologies/people#publication|)
+  
+  SubClassOf(
+    :newspaper 
+    :publication )
+
+// Axiom ID 159
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#man|
+//   (AND |http://cohse.semanticweb.org/ontologies/people#person|
+//        |http://cohse.semanticweb.org/ontologies/people#male|
+//        |http://cohse.semanticweb.org/ontologies/people#adult|)))
+  
+  EquivalentClasses(
+    :man 
+    ObjectIntersectionOf(
+      :person 
+      :male 
+      :adult ))
+
+// Axiom ID 152
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#magazine|
+//  |http://cohse.semanticweb.org/ontologies/people#publication|)
+  
+  SubClassOf(
+    :magazine 
+    :publication )
+
+// Axiom ID 148
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#mad_cow|
+//   (AND |http://cohse.semanticweb.org/ontologies/people#cow|
+//        (SOME |http://cohse.semanticweb.org/ontologies/people#eats|
+//              (AND |http://cohse.semanticweb.org/ontologies/people#brain|
+//                   (SOME
+//                    |http://cohse.semanticweb.org/ontologies/people#part_of|
+//                    |http://cohse.semanticweb.org/ontologies/people#sheep|))))))
+  
+  EquivalentClasses(
+    :mad_cow 
+    ObjectIntersectionOf(
+      :cow 
+      ObjectSomeValuesFrom(
+        :eats 
+        ObjectIntersectionOf(
+          :brain 
+          ObjectSomeValuesFrom(
+            :part_of 
+            :sheep )))))
+
+// Axiom ID 144
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#lorry_driver|
+//   (AND |http://cohse.semanticweb.org/ontologies/people#person|
+//        (SOME |http://cohse.semanticweb.org/ontologies/people#drives|
+//              |http://cohse.semanticweb.org/ontologies/people#lorry|))))
+  
+  EquivalentClasses(
+    :lorry_driver 
+    ObjectIntersectionOf(
+      :person 
+      ObjectSomeValuesFrom(
+        :drives 
+        :lorry )))
+
+// Axiom ID 140
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#lorry|
+//  |http://cohse.semanticweb.org/ontologies/people#vehicle|)
+  
+  SubClassOf(
+    :lorry 
+    :vehicle )
+
+// Axiom ID 136
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#leaf|
+//  (SOME |http://cohse.semanticweb.org/ontologies/people#part_of|
+//        |http://cohse.semanticweb.org/ontologies/people#tree|))
+  
+  SubClassOf(
+    :leaf 
+    ObjectSomeValuesFrom(
+      :part_of 
+      :tree ))
+
+// Axiom ID 132
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#kid|
+//   (AND |http://cohse.semanticweb.org/ontologies/people#person|
+//        |http://cohse.semanticweb.org/ontologies/people#young|)))
+  
+  EquivalentClasses(
+    :kid 
+    ObjectIntersectionOf(
+      :person 
+      :young ))
+
+// Axiom ID 128
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#haulage_worker|
+//   (SOME |http://cohse.semanticweb.org/ontologies/people#works_for|
+//         (OR |http://cohse.semanticweb.org/ontologies/people#haulage_company|
+//             (SOME |http://cohse.semanticweb.org/ontologies/people#part_of|
+//                   |http://cohse.semanticweb.org/ontologies/people#haulage_company|)))))
+  
+  EquivalentClasses(
+    :haulage_worker 
+    ObjectSomeValuesFrom(
+      :works_for 
+      ObjectUnionOf(
+        :haulage_company 
+        ObjectSomeValuesFrom(
+          :part_of 
+          :haulage_company ))))
+
+// Axiom ID 124
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#haulage_truck_driver|
+//   (AND
+//    (SOME |http://cohse.semanticweb.org/ontologies/people#works_for|
+//          (SOME |http://cohse.semanticweb.org/ontologies/people#part_of|
+//                |http://cohse.semanticweb.org/ontologies/people#haulage_company|))
+//    (SOME |http://cohse.semanticweb.org/ontologies/people#drives|
+//          |http://cohse.semanticweb.org/ontologies/people#truck|)
+//    |http://cohse.semanticweb.org/ontologies/people#person|)))
+  
+  EquivalentClasses(
+    :haulage_truck_driver 
+    ObjectIntersectionOf(
+      ObjectSomeValuesFrom(
+        :works_for 
+        ObjectSomeValuesFrom(
+          :part_of 
+          :haulage_company ))
+      ObjectSomeValuesFrom(
+        :drives 
+        :truck )
+      :person ))
+
+// Axiom ID 120
+
+// (|OWLSubClassAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#haulage_company|
+//  |http://cohse.semanticweb.org/ontologies/people#company|)
+  
+  SubClassOf(
+    :haulage_company 
+    :company )
+
+// Axiom ID 116
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#grownup|
+//   (AND |http://cohse.semanticweb.org/ontologies/people#adult|
+//        |http://cohse.semanticweb.org/ontologies/people#person|)))
+  
+  EquivalentClasses(
+    :grownup 
+    ObjectIntersectionOf(
+      :adult 
+      :person ))
+
+// Axiom ID 112
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#grass|
+//  |http://cohse.semanticweb.org/ontologies/people#plant|)
+  
+  SubClassOf(
+    :grass 
+    :plant )
+
+// Axiom ID 108
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#giraffe|
+//  (ALL |http://cohse.semanticweb.org/ontologies/people#eats|
+//   |http://cohse.semanticweb.org/ontologies/people#leaf|))
+  
+  SubClassOf(
+    :giraffe 
+    ObjectAllValuesFrom(
+      :eats 
+      :leaf ))
+
+// Axiom ID 107
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#giraffe|
+//  |http://cohse.semanticweb.org/ontologies/people#animal|)
+  
+  SubClassOf(
+    :giraffe 
+    :animal )
+
+// Axiom ID 100
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#elderly|
+//  |http://cohse.semanticweb.org/ontologies/people#adult|)
+  
+  SubClassOf(
+    :elderly 
+    :adult )
+
+// Axiom ID 96
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#duck|
+//  |http://cohse.semanticweb.org/ontologies/people#animal|)
+  
+  SubClassOf(
+    :duck 
+    :animal )
+
+// Axiom ID 92
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#driver|
+//  |http://cohse.semanticweb.org/ontologies/people#adult|)
+  
+  SubClassOf(
+    :driver 
+    :adult )
+
+// Axiom ID 91
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#driver|
+//   (AND |http://cohse.semanticweb.org/ontologies/people#person|
+//        (SOME |http://cohse.semanticweb.org/ontologies/people#drives|
+//              |http://cohse.semanticweb.org/ontologies/people#vehicle|))))
+  
+  EquivalentClasses(
+    :driver 
+    ObjectIntersectionOf(
+      :person 
+      ObjectSomeValuesFrom(
+        :drives 
+        :vehicle )))
+
+// Axiom ID 87
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#dog_owner|
+//   (AND |http://cohse.semanticweb.org/ontologies/people#person|
+//        (SOME |http://cohse.semanticweb.org/ontologies/people#has_pet|
+//              |http://cohse.semanticweb.org/ontologies/people#dog|))))
+  
+  EquivalentClasses(
+    :dog_owner 
+    ObjectIntersectionOf(
+      :person 
+      ObjectSomeValuesFrom(
+        :has_pet 
+        :dog )))
+
+// Axiom ID 83
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#dog_liker|
+//   (AND |http://cohse.semanticweb.org/ontologies/people#person|
+//        (SOME |http://cohse.semanticweb.org/ontologies/people#likes|
+//              |http://cohse.semanticweb.org/ontologies/people#dog|))))
+  
+  EquivalentClasses(
+    :dog_liker 
+    ObjectIntersectionOf(
+      :person 
+      ObjectSomeValuesFrom(
+        :likes 
+        :dog )))
+
+// Axiom ID 79
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#dog|
+//  (SOME |http://cohse.semanticweb.org/ontologies/people#eats|
+//        |http://cohse.semanticweb.org/ontologies/people#bone|))
+  
+  SubClassOf(
+    :dog 
+    ObjectSomeValuesFrom(
+      :eats 
+      :bone ))
+
+// Axiom ID 78
+
+// (|OWLDisjointClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#dog|
+//   |http://cohse.semanticweb.org/ontologies/people#cat|))
+  
+  DisjointClasses(
+    :dog 
+    :cat )
+
+// Axiom ID 74
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#cow|
+//  |http://cohse.semanticweb.org/ontologies/people#vegetarian|)
+  
+  SubClassOf(
+    :cow 
+    :vegetarian )
+
+// Axiom ID 67
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#cat_owner|
+//   (AND |http://cohse.semanticweb.org/ontologies/people#person|
+//        (SOME |http://cohse.semanticweb.org/ontologies/people#has_pet|
+//              |http://cohse.semanticweb.org/ontologies/people#cat|))))
+  
+  EquivalentClasses(
+    :cat_owner 
+    ObjectIntersectionOf(
+      :person 
+      ObjectSomeValuesFrom(
+        :has_pet 
+        :cat )))
+
+// Axiom ID 63
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#cat_liker|
+//   (AND |http://cohse.semanticweb.org/ontologies/people#person|
+//        (SOME |http://cohse.semanticweb.org/ontologies/people#likes|
+//              |http://cohse.semanticweb.org/ontologies/people#cat|))))
+  
+  EquivalentClasses(
+    :cat_liker 
+    ObjectIntersectionOf(
+      :person 
+      ObjectSomeValuesFrom(
+        :likes 
+        :cat )))
+
+// Axiom ID 59
+
+// (|OWLDisjointClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#cat|
+//   |http://cohse.semanticweb.org/ontologies/people#dog|))
+  
+  DisjointClasses(
+    :cat 
+    :dog )
+
+// Axiom ID 58
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#cat|
+//  |http://cohse.semanticweb.org/ontologies/people#animal|)
+  
+  SubClassOf(
+    :cat 
+    :animal )
+
+// Axiom ID 54
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#car|
+//  |http://cohse.semanticweb.org/ontologies/people#vehicle|)
+  
+  SubClassOf(
+    :car 
+    :vehicle )
+
+// Axiom ID 50
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#bus_driver|
+//   (AND |http://cohse.semanticweb.org/ontologies/people#person|
+//        (SOME |http://cohse.semanticweb.org/ontologies/people#drives|
+//              |http://cohse.semanticweb.org/ontologies/people#bus|))))
+  
+  EquivalentClasses(
+    :bus_driver 
+    ObjectIntersectionOf(
+      :person 
+      ObjectSomeValuesFrom(
+        :drives 
+        :bus )))
+
+// Axiom ID 46
+
+// (|OWLSubClassAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#bus_company|
+//  |http://cohse.semanticweb.org/ontologies/people#company|)
+  
+  SubClassOf(
+    :bus_company 
+    :company )
+
+// Axiom ID 42
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#bus|
+//  |http://cohse.semanticweb.org/ontologies/people#vehicle|)
+  
+  SubClassOf(
+    :bus 
+    :vehicle )
+
+// Axiom ID 38
+
+// (|OWLDisjointClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#broadsheet|
+//   |http://cohse.semanticweb.org/ontologies/people#tabloid|))
+  
+  DisjointClasses(
+    :broadsheet 
+    :tabloid )
+
+// Axiom ID 37
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#broadsheet|
+//  |http://cohse.semanticweb.org/ontologies/people#newspaper|)
+  
+  SubClassOf(
+    :broadsheet 
+    :newspaper )
+
+// Axiom ID 27
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#bicycle|
+//  |http://cohse.semanticweb.org/ontologies/people#vehicle|)
+  
+  SubClassOf(
+    :bicycle 
+    :vehicle )
+
+// Axiom ID 23
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#animal_lover|
+//   (AND |http://cohse.semanticweb.org/ontologies/people#person|
+//        (AT-LEAST 3 |http://cohse.semanticweb.org/ontologies/people#has_pet|))))
+  
+  EquivalentClasses(
+    :animal_lover 
+    ObjectIntersectionOf(
+      :person 
+      ObjectMinCardinality(
+        3 
+        :has_pet )))
+
+// Axiom ID 19
+
+// (|OWLSubClassAxiom| |http://cohse.semanticweb.org/ontologies/people#animal|
+//  (SOME |http://cohse.semanticweb.org/ontologies/people#eats| TOP))
+  
+  SubClassOf(
+    :animal 
+    ObjectSomeValuesFrom(
+      :eats 
+      owl:Thing ))
+
+// Axiom ID 15
+
+// (|OWLDisjointClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#adult|
+//   |http://cohse.semanticweb.org/ontologies/people#young|))
+  
+  DisjointClasses(
+    :adult 
+    :young )
+
+// Axiom ID 11
+
+// (|OWLDisjointClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#Axiom_2|
+//   (OR |http://cohse.semanticweb.org/ontologies/people#plant|
+//       (SOME |http://cohse.semanticweb.org/ontologies/people#part_of|
+//             |http://cohse.semanticweb.org/ontologies/people#plant|))))
+  
+  DisjointClasses(
+    :Axiom_2 
+    ObjectUnionOf(
+      :plant 
+      ObjectSomeValuesFrom(
+        :part_of 
+        :plant )))
+
+// Axiom ID 10
+
+// (|OWLEquivalentClassesAxiom|
+//  (|http://cohse.semanticweb.org/ontologies/people#Axiom_2|
+//   (OR |http://cohse.semanticweb.org/ontologies/people#animal|
+//       (SOME |http://cohse.semanticweb.org/ontologies/people#part_of|
+//             |http://cohse.semanticweb.org/ontologies/people#animal|))))
+  
+  EquivalentClasses(
+    :Axiom_2 
+    ObjectUnionOf(
+      :animal 
+      ObjectSomeValuesFrom(
+        :part_of 
+        :animal )))
+
+// Axiom ID 306
+
+// (|OWLDataPropertyRangeAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#service_number|
+//  (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#integer|))
+  
+  DataPropertyRange(
+    :service_number 
+    xsd:integer )
+
+// Axiom ID 299
+
+// (|OWLObjectPropertyRangeAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#reads|
+//  |http://cohse.semanticweb.org/ontologies/people#publication|)
+  
+  ObjectPropertyRange(
+    :reads 
+    :publication )
+
+// Axiom ID 286
+
+// (|OWLInverseObjectPropertiesAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#is_pet_of|
+//  |http://cohse.semanticweb.org/ontologies/people#has_pet|)
+  
+  InverseObjectProperties(
+    :is_pet_of 
+    :has_pet )
+
+// Axiom ID 285
+
+// (|OWLObjectPropertyRangeAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_pet|
+//  |http://cohse.semanticweb.org/ontologies/people#animal|)
+  
+  ObjectPropertyRange(
+    :has_pet 
+    :animal )
+
+// Axiom ID 284
+
+// (|OWLObjectPropertyDomainAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_pet|
+//  |http://cohse.semanticweb.org/ontologies/people#person|)
+  
+  ObjectPropertyDomain(
+    :has_pet 
+    :person )
+
+// Axiom ID 283
+
+// (|OWLObjectSubPropertyAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_pet|
+//  |http://cohse.semanticweb.org/ontologies/people#likes|)
+  
+  SubObjectPropertyOf(
+    :has_pet 
+    :likes )
+
+// Axiom ID 279
+
+// (|OWLInverseObjectPropertiesAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#part_of|
+//  |http://cohse.semanticweb.org/ontologies/people#has_part|)
+  
+  InverseObjectProperties(
+    :part_of 
+    :has_part )
+
+// Axiom ID 272
+
+// (|OWLObjectPropertyRangeAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_mother|
+//  |http://cohse.semanticweb.org/ontologies/people#woman|)
+  
+  ObjectPropertyRange(
+    :has_mother 
+    :woman )
+
+// Axiom ID 271
+
+// (|OWLObjectSubPropertyAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_mother|
+//  |http://cohse.semanticweb.org/ontologies/people#has_parent|)
+  
+  SubObjectPropertyOf(
+    :has_mother 
+    :has_parent )
+
+// Axiom ID 267
+
+// (|OWLObjectPropertyRangeAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_father|
+//  |http://cohse.semanticweb.org/ontologies/people#man|)
+  
+  ObjectPropertyRange(
+    :has_father 
+    :man )
+
+// Axiom ID 266
+
+// (|OWLObjectSubPropertyAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_father|
+//  |http://cohse.semanticweb.org/ontologies/people#has_parent|)
+  
+  SubObjectPropertyOf(
+    :has_father 
+    :has_parent )
+
+// Axiom ID 259
+
+// (|OWLObjectPropertyDomainAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#eats|
+//  |http://cohse.semanticweb.org/ontologies/people#animal|)
+  
+  ObjectPropertyDomain(
+    :eats 
+    :animal )
+
+// Axiom ID 255
+
+// (|OWLInverseObjectPropertiesAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#eaten_by|
+//  |http://cohse.semanticweb.org/ontologies/people#eats|)
+  
+  InverseObjectProperties(
+    :eaten_by 
+    :eats )
+
+// Axiom ID 382
+
+// (|OWLObjectPropertyAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Walt|
+//  |http://cohse.semanticweb.org/ontologies/people#has_pet|
+//  |http://cohse.semanticweb.org/ontologies/people#Louie|)
+  
+  ObjectPropertyAssertion(
+    :has_pet 
+    :Walt 
+    :Louie )
+
+// Axiom ID 381
+
+// (|OWLObjectPropertyAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Walt|
+//  |http://cohse.semanticweb.org/ontologies/people#has_pet|
+//  |http://cohse.semanticweb.org/ontologies/people#Huey|)
+  
+  ObjectPropertyAssertion(
+    :has_pet 
+    :Walt 
+    :Huey )
+
+// Axiom ID 380
+
+// (|OWLObjectPropertyAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Walt|
+//  |http://cohse.semanticweb.org/ontologies/people#has_pet|
+//  |http://cohse.semanticweb.org/ontologies/people#Dewey|)
+  
+  ObjectPropertyAssertion(
+    :has_pet 
+    :Walt 
+    :Dewey )
+
+// Axiom ID 379
+
+// (|OWLClassAssertionAxiom| |http://cohse.semanticweb.org/ontologies/people#Walt|
+//  |http://cohse.semanticweb.org/ontologies/people#person|)
+  
+  ClassAssertion(
+    :person 
+    :Walt )
+
+// Axiom ID 376
+
+// (|OWLClassAssertionAxiom| |http://cohse.semanticweb.org/ontologies/people#Tom|
+//  TOP)
+  
+  ClassAssertion(
+    owl:Thing 
+    :Tom )
+
+// Axiom ID 373
+
+// (|OWLClassAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Tibbs|
+//  |http://cohse.semanticweb.org/ontologies/people#cat|)
+  
+  ClassAssertion(
+    :cat 
+    :Tibbs )
+
+// Axiom ID 370
+
+// (|OWLClassAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#The_Times|
+//  |http://cohse.semanticweb.org/ontologies/people#broadsheet|)
+  
+  ClassAssertion(
+    :broadsheet 
+    :The_Times )
+
+// Axiom ID 367
+
+// (|OWLClassAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#The_Sun|
+//  |http://cohse.semanticweb.org/ontologies/people#tabloid|)
+  
+  ClassAssertion(
+    :tabloid 
+    :The_Sun )
+
+// Axiom ID 364
+
+// (|OWLClassAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#The_Guardian|
+//  |http://cohse.semanticweb.org/ontologies/people#broadsheet|)
+  
+  ClassAssertion(
+    :broadsheet 
+    :The_Guardian )
+
+// Axiom ID 361
+
+// (|OWLDataPropertyAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#The42|
+//  |http://cohse.semanticweb.org/ontologies/people#service_number|
+//  (D-LITERAL "42" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#integer|)))
+  
+  DataPropertyAssertion(
+    :service_number 
+    :The42 "42"^^xsd:integer )
+
+// Axiom ID 360
+
+// (|OWLClassAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#The42|
+//  |http://cohse.semanticweb.org/ontologies/people#bus|)
+  
+  ClassAssertion(
+    :bus 
+    :The42 )
+
+// Axiom ID 357
+
+// (|OWLObjectPropertyAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Rex|
+//  |http://cohse.semanticweb.org/ontologies/people#is_pet_of|
+//  |http://cohse.semanticweb.org/ontologies/people#Mick|)
+  
+  ObjectPropertyAssertion(
+    :is_pet_of 
+    :Rex 
+    :Mick )
+
+// Axiom ID 356
+
+// (|OWLClassAssertionAxiom| |http://cohse.semanticweb.org/ontologies/people#Rex|
+//  |http://cohse.semanticweb.org/ontologies/people#dog|)
+  
+  ClassAssertion(
+    :dog 
+    :Rex )
+
+// Axiom ID 353
+
+// (|OWLClassAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Q123_ABC|
+//  |http://cohse.semanticweb.org/ontologies/people#white_thing|)
+  
+  ClassAssertion(
+    :white_thing 
+    :Q123_ABC )
+
+// Axiom ID 352
+
+// (|OWLClassAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Q123_ABC|
+//  |http://cohse.semanticweb.org/ontologies/people#van|)
+  
+  ClassAssertion(
+    :van 
+    :Q123_ABC )
+
+// Axiom ID 349
+
+// (|OWLObjectPropertyAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Minnie|
+//  |http://cohse.semanticweb.org/ontologies/people#has_pet|
+//  |http://cohse.semanticweb.org/ontologies/people#Tom|)
+  
+  ObjectPropertyAssertion(
+    :has_pet 
+    :Minnie 
+    :Tom )
+
+// Axiom ID 348
+
+// (|OWLClassAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Minnie|
+//  |http://cohse.semanticweb.org/ontologies/people#female|)
+  
+  ClassAssertion(
+    :female 
+    :Minnie )
+
+// Axiom ID 347
+
+// (|OWLClassAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Minnie|
+//  |http://cohse.semanticweb.org/ontologies/people#elderly|)
+  
+  ClassAssertion(
+    :elderly 
+    :Minnie )
+
+// Axiom ID 344
+
+// (|OWLObjectPropertyAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Mick|
+//  |http://cohse.semanticweb.org/ontologies/people#reads|
+//  |http://cohse.semanticweb.org/ontologies/people#Daily_Mirror|)
+  
+  ObjectPropertyAssertion(
+    :reads 
+    :Mick 
+    :Daily_Mirror )
+
+// Axiom ID 343
+
+// (|OWLObjectPropertyAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Mick|
+//  |http://cohse.semanticweb.org/ontologies/people#drives|
+//  |http://cohse.semanticweb.org/ontologies/people#Q123_ABC|)
+  
+  ObjectPropertyAssertion(
+    :drives 
+    :Mick 
+    :Q123_ABC )
+
+// Axiom ID 342
+
+// (|OWLClassAssertionAxiom| |http://cohse.semanticweb.org/ontologies/people#Mick|
+//  |http://cohse.semanticweb.org/ontologies/people#male|)
+  
+  ClassAssertion(
+    :male 
+    :Mick )
+
+// Axiom ID 339
+
+// (|OWLClassAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Louie|
+//  |http://cohse.semanticweb.org/ontologies/people#duck|)
+  
+  ClassAssertion(
+    :duck 
+    :Louie )
+
+// Axiom ID 336
+
+// (|OWLClassAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Kevin|
+//  |http://cohse.semanticweb.org/ontologies/people#person|)
+  
+  ClassAssertion(
+    :person 
+    :Kevin )
+
+// Axiom ID 333
+
+// (|OWLObjectPropertyAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Joe|
+//  |http://cohse.semanticweb.org/ontologies/people#has_pet|
+//  |http://cohse.semanticweb.org/ontologies/people#Fido|)
+  
+  ObjectPropertyAssertion(
+    :has_pet 
+    :Joe 
+    :Fido )
+
+// Axiom ID 332
+
+// (|OWLClassAssertionAxiom| |http://cohse.semanticweb.org/ontologies/people#Joe|
+//  (AT-MOST 1 |http://cohse.semanticweb.org/ontologies/people#has_pet|))
+  
+  ClassAssertion(
+    ObjectMaxCardinality(
+      1 
+      :has_pet )
+    :Joe )
+
+// Axiom ID 331
+
+// (|OWLClassAssertionAxiom| |http://cohse.semanticweb.org/ontologies/people#Joe|
+//  |http://cohse.semanticweb.org/ontologies/people#person|)
+  
+  ClassAssertion(
+    :person 
+    :Joe )
+
+// Axiom ID 328
+
+// (|OWLClassAssertionAxiom| |http://cohse.semanticweb.org/ontologies/people#Huey|
+//  |http://cohse.semanticweb.org/ontologies/people#duck|)
+  
+  ClassAssertion(
+    :duck 
+    :Huey )
+
+// Axiom ID 325
+
+// (|OWLObjectPropertyAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Fred|
+//  |http://cohse.semanticweb.org/ontologies/people#has_pet|
+//  |http://cohse.semanticweb.org/ontologies/people#Tibbs|)
+  
+  ObjectPropertyAssertion(
+    :has_pet 
+    :Fred 
+    :Tibbs )
+
+// Axiom ID 324
+
+// (|OWLClassAssertionAxiom| |http://cohse.semanticweb.org/ontologies/people#Fred|
+//  |http://cohse.semanticweb.org/ontologies/people#person|)
+  
+  ClassAssertion(
+    :person 
+    :Fred )
+
+// Axiom ID 321
+
+// (|OWLClassAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Fluffy|
+//  |http://cohse.semanticweb.org/ontologies/people#tiger|)
+  
+  ClassAssertion(
+    :tiger 
+    :Fluffy )
+
+// Axiom ID 318
+
+// (|OWLClassAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Flossie|
+//  |http://cohse.semanticweb.org/ontologies/people#cow|)
+  
+  ClassAssertion(
+    :cow 
+    :Flossie )
+
+// Axiom ID 315
+
+// (|OWLClassAssertionAxiom| |http://cohse.semanticweb.org/ontologies/people#Fido|
+//  |http://cohse.semanticweb.org/ontologies/people#dog|)
+  
+  ClassAssertion(
+    :dog 
+    :Fido )
+
+// Axiom ID 312
+
+// (|OWLClassAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Dewey|
+//  |http://cohse.semanticweb.org/ontologies/people#duck|)
+  
+  ClassAssertion(
+    :duck 
+    :Dewey )
+
+// Axiom ID 309
+
+// (|OWLClassAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Daily_Mirror| TOP)
+  
+  ClassAssertion(
+    owl:Thing 
+    :Daily_Mirror )
+
+// Axiom ID 378
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Walt|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "Walt" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :Walt "Walt"^^xsd:string )
+
+// Axiom ID 377
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Walt|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :Walt ""^^xsd:string )
+
+// Axiom ID 375
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Tom|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "Tom" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :Tom "Tom"^^xsd:string )
+
+// Axiom ID 374
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Tom|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :Tom ""^^xsd:string )
+
+// Axiom ID 372
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Tibbs|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :Tibbs ""^^xsd:string )
+
+// Axiom ID 371
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Tibbs|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "Tibbs" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :Tibbs "Tibbs"^^xsd:string )
+
+// Axiom ID 369
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#The_Times|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "The Times"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :The_Times "The Times"^^xsd:string )
+
+// Axiom ID 368
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#The_Times|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :The_Times ""^^xsd:string )
+
+// Axiom ID 366
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#The_Sun|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "The Sun" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :The_Sun "The Sun"^^xsd:string )
+
+// Axiom ID 365
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#The_Sun|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :The_Sun ""^^xsd:string )
+
+// Axiom ID 363
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#The_Guardian|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "The Guardian"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :The_Guardian "The Guardian"^^xsd:string )
+
+// Axiom ID 362
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#The_Guardian|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :The_Guardian ""^^xsd:string )
+
+// Axiom ID 359
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#The42|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :The42 ""^^xsd:string )
+
+// Axiom ID 358
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#The42|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "The42" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :The42 "The42"^^xsd:string )
+
+// Axiom ID 355
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Rex|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "Rex" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :Rex "Rex"^^xsd:string )
+
+// Axiom ID 354
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Rex|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :Rex ""^^xsd:string )
+
+// Axiom ID 351
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Q123_ABC|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "Q123 ABC" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :Q123_ABC "Q123 ABC"^^xsd:string )
+
+// Axiom ID 350
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Q123_ABC|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "A white van"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :Q123_ABC "A white van"^^xsd:string )
+
+// Axiom ID 346
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Minnie|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "Minnie" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :Minnie "Minnie"^^xsd:string )
+
+// Axiom ID 345
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Minnie|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :Minnie ""^^xsd:string )
+
+// Axiom ID 341
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Mick|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "Mick" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :Mick "Mick"^^xsd:string )
+
+// Axiom ID 340
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Mick|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL
+//   "Mick is male and drives a white van. Due to the axiom concerning drivers, we know that Mick must be a man, and is therefore a white van man. The axiom about the reading material of a white van man then allows us to infer things about the Daily Mirror."
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :Mick "Mick is male and drives a white van. Due to the axiom concerning drivers, we know that Mick must be a man, and is therefore a white van man. The axiom about the reading material of a white van man then allows us to infer things about the Daily Mirror."^^xsd:string )
+
+// Axiom ID 338
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Louie|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :Louie ""^^xsd:string )
+
+// Axiom ID 337
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Louie|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "Louie" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :Louie "Louie"^^xsd:string )
+
+// Axiom ID 335
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Kevin|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "Kevin" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :Kevin "Kevin"^^xsd:string )
+
+// Axiom ID 334
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Kevin|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :Kevin ""^^xsd:string )
+
+// Axiom ID 330
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Joe|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :Joe ""^^xsd:string )
+
+// Axiom ID 329
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Joe|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "Joe" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :Joe "Joe"^^xsd:string )
+
+// Axiom ID 327
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Huey|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "Huey" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :Huey "Huey"^^xsd:string )
+
+// Axiom ID 326
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Huey|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :Huey ""^^xsd:string )
+
+// Axiom ID 323
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Fred|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "Fred" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :Fred "Fred"^^xsd:string )
+
+// Axiom ID 322
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Fred|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :Fred ""^^xsd:string )
+
+// Axiom ID 320
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Fluffy|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :Fluffy ""^^xsd:string )
+
+// Axiom ID 319
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Fluffy|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "Fluffy" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :Fluffy "Fluffy"^^xsd:string )
+
+// Axiom ID 317
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Flossie|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :Flossie ""^^xsd:string )
+
+// Axiom ID 316
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Flossie|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "Flossie" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :Flossie "Flossie"^^xsd:string )
+
+// Axiom ID 314
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Fido|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "Fido" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :Fido "Fido"^^xsd:string )
+
+// Axiom ID 313
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Fido|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :Fido ""^^xsd:string )
+
+// Axiom ID 311
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Dewey|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :Dewey ""^^xsd:string )
+
+// Axiom ID 310
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Dewey|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "Dewey" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :Dewey "Dewey"^^xsd:string )
+
+// Axiom ID 308
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Daily_Mirror|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "The paper read by Mick (a white van man)."
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :Daily_Mirror "The paper read by Mick (a white van man)."^^xsd:string )
+
+// Axiom ID 307
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#Daily_Mirror|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "Daily Mirror"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :Daily_Mirror "Daily Mirror"^^xsd:string )
+
+// Axiom ID 305
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#service_number|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :service_number ""^^xsd:string )
+
+// Axiom ID 304
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#service_number|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "service_number"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :service_number "service_number"^^xsd:string )
+
+// Axiom ID 302
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#works_for|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "works_for"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :works_for "works_for"^^xsd:string )
+
+// Axiom ID 301
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#works_for|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :works_for ""^^xsd:string )
+
+// Axiom ID 298
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#reads|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :reads ""^^xsd:string )
+
+// Axiom ID 297
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#reads|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "reads" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :reads "reads"^^xsd:string )
+
+// Axiom ID 295
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#part_of|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :part_of ""^^xsd:string )
+
+// Axiom ID 294
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#part_of|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "part_of" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :part_of "part_of"^^xsd:string )
+
+// Axiom ID 292
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#likes|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "likes" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :likes "likes"^^xsd:string )
+
+// Axiom ID 291
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#likes|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :likes ""^^xsd:string )
+
+// Axiom ID 289
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#is_pet_of|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :is_pet_of ""^^xsd:string )
+
+// Axiom ID 288
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#is_pet_of|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "is_pet_of"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :is_pet_of "is_pet_of"^^xsd:string )
+
+// Axiom ID 282
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_pet|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "has_pet" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :has_pet "has_pet"^^xsd:string )
+
+// Axiom ID 281
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_pet|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "Anyone that has a pet must like that pet."
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :has_pet "Anyone that has a pet must like that pet."^^xsd:string )
+
+// Axiom ID 278
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_part|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :has_part ""^^xsd:string )
+
+// Axiom ID 277
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_part|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "has_part" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :has_part "has_part"^^xsd:string )
+
+// Axiom ID 275
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_parent|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :has_parent ""^^xsd:string )
+
+// Axiom ID 274
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_parent|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "has_parent"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :has_parent "has_parent"^^xsd:string )
+
+// Axiom ID 270
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_mother|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :has_mother ""^^xsd:string )
+
+// Axiom ID 269
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_mother|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "has_mother"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :has_mother "has_mother"^^xsd:string )
+
+// Axiom ID 265
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_father|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "has_father"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :has_father "has_father"^^xsd:string )
+
+// Axiom ID 264
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_father|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :has_father ""^^xsd:string )
+
+// Axiom ID 262
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_child|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "has_child"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :has_child "has_child"^^xsd:string )
+
+// Axiom ID 261
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#has_child|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :has_child ""^^xsd:string )
+
+// Axiom ID 258
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#eats|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :eats ""^^xsd:string )
+
+// Axiom ID 257
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#eats|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "eats" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :eats "eats"^^xsd:string )
+
+// Axiom ID 254
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#eaten_by|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "eaten_by" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :eaten_by "eaten_by"^^xsd:string )
+
+// Axiom ID 253
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#eaten_by|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :eaten_by ""^^xsd:string )
+
+// Axiom ID 251
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#drives|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :drives ""^^xsd:string )
+
+// Axiom ID 250
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#drives|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "drives" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :drives "drives"^^xsd:string )
+
+// Axiom ID 247
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#young|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "young" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :young "young"^^xsd:string )
+
+// Axiom ID 246
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#young|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :young ""^^xsd:string )
+
+// Axiom ID 243
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#woman|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "woman" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :woman "woman"^^xsd:string )
+
+// Axiom ID 242
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#woman|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :woman ""^^xsd:string )
+
+// Axiom ID 238
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#white_van_man|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "white van man"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :white_van_man "white van man"^^xsd:string )
+
+// Axiom ID 237
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#white_van_man|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "A white van man is a man who drives a white van."
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :white_van_man "A white van man is a man who drives a white van."^^xsd:string )
+
+// Axiom ID 235
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#white_thing|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "white thing"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :white_thing "white thing"^^xsd:string )
+
+// Axiom ID 234
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#white_thing|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :white_thing ""^^xsd:string )
+
+// Axiom ID 232
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#vehicle|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "vehicle" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :vehicle "vehicle"^^xsd:string )
+
+// Axiom ID 231
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#vehicle|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :vehicle ""^^xsd:string )
+
+// Axiom ID 228
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#vegetarian|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "vegetarian"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :vegetarian "vegetarian"^^xsd:string )
+
+// Axiom ID 227
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#vegetarian|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL
+//   "A vegetarian is defined as an animal that eats no other animals, or parts of animals."
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :vegetarian "A vegetarian is defined as an animal that eats no other animals, or parts of animals."^^xsd:string )
+
+// Axiom ID 224
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#van_driver|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :van_driver ""^^xsd:string )
+
+// Axiom ID 223
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#van_driver|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "van driver"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :van_driver "van driver"^^xsd:string )
+
+// Axiom ID 220
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#van|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "van" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :van "van"^^xsd:string )
+
+// Axiom ID 219
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#van|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :van ""^^xsd:string )
+
+// Axiom ID 216
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#truck|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "truck" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :truck "truck"^^xsd:string )
+
+// Axiom ID 215
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#truck|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :truck ""^^xsd:string )
+
+// Axiom ID 212
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#tree|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :tree ""^^xsd:string )
+
+// Axiom ID 211
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#tree|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "tree" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :tree "tree"^^xsd:string )
+
+// Axiom ID 208
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#tiger|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :tiger ""^^xsd:string )
+
+// Axiom ID 207
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#tiger|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "tiger" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :tiger "tiger"^^xsd:string )
+
+// Axiom ID 203
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#tabloid|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL
+//   "A newspaper. Tabloids are usually thought of as more \"down-market\" than broadsheets."
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :tabloid "A newspaper. Tabloids are usually thought of as more \"down-market\" than broadsheets."^^xsd:string )
+
+// Axiom ID 202
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#tabloid|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "tabloid" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :tabloid "tabloid"^^xsd:string )
+
+// Axiom ID 198
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#sheep|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "sheep" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :sheep "sheep"^^xsd:string )
+
+// Axiom ID 197
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#sheep|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :sheep ""^^xsd:string )
+
+// Axiom ID 194
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#red_top|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :red_top ""^^xsd:string )
+
+// Axiom ID 193
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#red_top|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "red top" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :red_top "red top"^^xsd:string )
+
+// Axiom ID 190
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#quality_broadsheet|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :quality_broadsheet ""^^xsd:string )
+
+// Axiom ID 189
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#quality_broadsheet|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "quality broadsheet"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :quality_broadsheet "quality broadsheet"^^xsd:string )
+
+// Axiom ID 187
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#publication|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "publication"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :publication "publication"^^xsd:string )
+
+// Axiom ID 186
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#publication|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :publication ""^^xsd:string )
+
+// Axiom ID 184
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#plant|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :plant ""^^xsd:string )
+
+// Axiom ID 183
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#plant|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "plant" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :plant "plant"^^xsd:string )
+
+// Axiom ID 180
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#pet_owner|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :pet_owner ""^^xsd:string )
+
+// Axiom ID 179
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#pet_owner|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "pet owner"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :pet_owner "pet owner"^^xsd:string )
+
+// Axiom ID 176
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#pet|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :pet ""^^xsd:string )
+
+// Axiom ID 175
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#pet|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "pet" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :pet "pet"^^xsd:string )
+
+// Axiom ID 172
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#person|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :person ""^^xsd:string )
+
+// Axiom ID 171
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#person|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "person" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :person "person"^^xsd:string )
+
+// Axiom ID 167
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#old_lady|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :old_lady ""^^xsd:string )
+
+// Axiom ID 166
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#old_lady|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "old lady" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :old_lady "old lady"^^xsd:string )
+
+// Axiom ID 162
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#newspaper|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "All newspapers are either broadsheets or tabloids."
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :newspaper "All newspapers are either broadsheets or tabloids."^^xsd:string )
+
+// Axiom ID 161
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#newspaper|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "newspaper"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :newspaper "newspaper"^^xsd:string )
+
+// Axiom ID 158
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#man|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :man ""^^xsd:string )
+
+// Axiom ID 157
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#man|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "man" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :man "man"^^xsd:string )
+
+// Axiom ID 155
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#male|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "The class of all male things."
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :male "The class of all male things."^^xsd:string )
+
+// Axiom ID 154
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#male|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "male" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :male "male"^^xsd:string )
+
+// Axiom ID 151
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#magazine|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :magazine ""^^xsd:string )
+
+// Axiom ID 150
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#magazine|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "magazine" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :magazine "magazine"^^xsd:string )
+
+// Axiom ID 147
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#mad_cow|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "mad cow" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :mad_cow "mad cow"^^xsd:string )
+
+// Axiom ID 146
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#mad_cow|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "A mad cow is a cow that has been eating the brains of sheep."
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :mad_cow "A mad cow is a cow that has been eating the brains of sheep."^^xsd:string )
+
+// Axiom ID 143
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#lorry_driver|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "lorry driver"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :lorry_driver "lorry driver"^^xsd:string )
+
+// Axiom ID 142
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#lorry_driver|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :lorry_driver ""^^xsd:string )
+
+// Axiom ID 139
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#lorry|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :lorry ""^^xsd:string )
+
+// Axiom ID 138
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#lorry|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "lorry" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :lorry "lorry"^^xsd:string )
+
+// Axiom ID 135
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#leaf|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :leaf ""^^xsd:string )
+
+// Axiom ID 134
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#leaf|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "leaf" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :leaf "leaf"^^xsd:string )
+
+// Axiom ID 131
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#kid|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :kid ""^^xsd:string )
+
+// Axiom ID 130
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#kid|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "kid" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :kid "kid"^^xsd:string )
+
+// Axiom ID 127
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#haulage_worker|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :haulage_worker ""^^xsd:string )
+
+// Axiom ID 126
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#haulage_worker|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "haulage worker"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :haulage_worker "haulage worker"^^xsd:string )
+
+// Axiom ID 123
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#haulage_truck_driver|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :haulage_truck_driver ""^^xsd:string )
+
+// Axiom ID 122
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#haulage_truck_driver|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "haulage truck driver"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :haulage_truck_driver "haulage truck driver"^^xsd:string )
+
+// Axiom ID 119
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#haulage_company|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :haulage_company ""^^xsd:string )
+
+// Axiom ID 118
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#haulage_company|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "haulage company"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :haulage_company "haulage company"^^xsd:string )
+
+// Axiom ID 115
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#grownup|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :grownup ""^^xsd:string )
+
+// Axiom ID 114
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#grownup|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "grownup" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :grownup "grownup"^^xsd:string )
+
+// Axiom ID 111
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#grass|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :grass ""^^xsd:string )
+
+// Axiom ID 110
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#grass|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "grass" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :grass "grass"^^xsd:string )
+
+// Axiom ID 106
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#giraffe|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :giraffe ""^^xsd:string )
+
+// Axiom ID 105
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#giraffe|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "giraffe" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :giraffe "giraffe"^^xsd:string )
+
+// Axiom ID 103
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#female|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "female" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :female "female"^^xsd:string )
+
+// Axiom ID 102
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#female|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :female ""^^xsd:string )
+
+// Axiom ID 99
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#elderly|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :elderly ""^^xsd:string )
+
+// Axiom ID 98
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#elderly|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "elderly" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :elderly "elderly"^^xsd:string )
+
+// Axiom ID 95
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#duck|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :duck ""^^xsd:string )
+
+// Axiom ID 94
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#duck|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "duck" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :duck "duck"^^xsd:string )
+
+// Axiom ID 90
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#driver|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "driver" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :driver "driver"^^xsd:string )
+
+// Axiom ID 89
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#driver|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :driver ""^^xsd:string )
+
+// Axiom ID 86
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#dog_owner|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :dog_owner ""^^xsd:string )
+
+// Axiom ID 85
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#dog_owner|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "dog owner"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :dog_owner "dog owner"^^xsd:string )
+
+// Axiom ID 82
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#dog_liker|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :dog_liker ""^^xsd:string )
+
+// Axiom ID 81
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#dog_liker|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "dog liker"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :dog_liker "dog liker"^^xsd:string )
+
+// Axiom ID 77
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#dog|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :dog ""^^xsd:string )
+
+// Axiom ID 76
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#dog|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "dog" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :dog "dog"^^xsd:string )
+
+// Axiom ID 73
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#cow|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "Cows are naturally vegetarians."
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :cow "Cows are naturally vegetarians."^^xsd:string )
+
+// Axiom ID 72
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#cow|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "cow" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :cow "cow"^^xsd:string )
+
+// Axiom ID 70
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#company|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "company" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :company "company"^^xsd:string )
+
+// Axiom ID 69
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#company|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :company ""^^xsd:string )
+
+// Axiom ID 66
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#cat_owner|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "cat owner"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :cat_owner "cat owner"^^xsd:string )
+
+// Axiom ID 65
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#cat_owner|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :cat_owner ""^^xsd:string )
+
+// Axiom ID 62
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#cat_liker|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "cat liker"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :cat_liker "cat liker"^^xsd:string )
+
+// Axiom ID 61
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#cat_liker|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :cat_liker ""^^xsd:string )
+
+// Axiom ID 57
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#cat|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "cat" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :cat "cat"^^xsd:string )
+
+// Axiom ID 56
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#cat|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :cat ""^^xsd:string )
+
+// Axiom ID 53
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#car|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :car ""^^xsd:string )
+
+// Axiom ID 52
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#car|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "car" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :car "car"^^xsd:string )
+
+// Axiom ID 49
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#bus_driver|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "bus driver"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :bus_driver "bus driver"^^xsd:string )
+
+// Axiom ID 48
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#bus_driver|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "Someone who drives a bus."
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :bus_driver "Someone who drives a bus."^^xsd:string )
+
+// Axiom ID 45
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#bus_company|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :bus_company ""^^xsd:string )
+
+// Axiom ID 44
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#bus_company|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "bus company"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :bus_company "bus company"^^xsd:string )
+
+// Axiom ID 41
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#bus|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :bus ""^^xsd:string )
+
+// Axiom ID 40
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#bus|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "bus" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :bus "bus"^^xsd:string )
+
+// Axiom ID 36
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#broadsheet|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "broadsheet"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :broadsheet "broadsheet"^^xsd:string )
+
+// Axiom ID 35
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#broadsheet|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL
+//   "A newspaper. Broadsheets are usually considered to be more \"high-brow\" than tabloids."
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :broadsheet "A newspaper. Broadsheets are usually considered to be more \"high-brow\" than tabloids."^^xsd:string )
+
+// Axiom ID 33
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#brain|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "brain" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :brain "brain"^^xsd:string )
+
+// Axiom ID 32
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#brain|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :brain ""^^xsd:string )
+
+// Axiom ID 30
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#bone|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "bone" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :bone "bone"^^xsd:string )
+
+// Axiom ID 29
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#bone|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :bone ""^^xsd:string )
+
+// Axiom ID 26
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#bicycle|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "A human propelled vehicle, with two wheels"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :bicycle "A human propelled vehicle, with two wheels"^^xsd:string )
+
+// Axiom ID 25
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#bicycle|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "bicycle" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :bicycle "bicycle"^^xsd:string )
+
+// Axiom ID 22
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#animal_lover|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "Someone who really likes animals"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :animal_lover "Someone who really likes animals"^^xsd:string )
+
+// Axiom ID 21
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#animal_lover|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "animal lover"
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :animal_lover "animal lover"^^xsd:string )
+
+// Axiom ID 18
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#animal|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :animal ""^^xsd:string )
+
+// Axiom ID 17
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#animal|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "animal" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :animal "animal"^^xsd:string )
+
+// Axiom ID 14
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#adult|
+//  |http://www.w3.org/2000/01/rdf-schema#label|
+//  (D-LITERAL "adult" (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:label 
+    :adult "adult"^^xsd:string )
+
+// Axiom ID 13
+
+// (|OWLAnnotationAssertionAxiom|
+//  |http://cohse.semanticweb.org/ontologies/people#adult|
+//  |http://www.w3.org/2000/01/rdf-schema#comment|
+//  (D-LITERAL "Things that are adult."
+//   (D-BASE-TYPE |http://www.w3.org/2001/XMLSchema#string|)))
+  
+  AnnotationAssertion(
+    rdfs:comment 
+    :adult "Things that are adult."^^xsd:string ))
+
+// Ontology "http://cohse.semanticweb.org/ontologies/people" rendered by the Lisp-OWLAPI

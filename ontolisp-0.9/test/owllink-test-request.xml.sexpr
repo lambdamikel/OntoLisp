@@ -1,0 +1,223 @@
+
+
+(NamespacePrefix () 
+  NIL 
+  |http://www.owllink.org/owllink#| )
+
+(NamespacePrefix () 
+  xsd 
+  |http://www.w3.org/2001/XMLSchema#| )
+
+(NamespacePrefix () 
+  owl 
+  |http://www.w3.org/2002/07/owl#| )
+
+(RequestMessage () 
+  
+  (CreateKB (:kb |http://owllink.org/test/kb1/| ) )
+  
+  (Tell (:kb |http://owllink.org/test/kb1/| ) 
+    (SubClassOf 
+      Woman 
+      Person )
+    (SubClassOf 
+      Mother 
+      Woman )
+    (SubClassOf 
+      Grandfather 
+      (ObjectIntersectionOf 
+        Man 
+        Parent ))
+    (SubClassOf 
+      Father 
+      (ObjectIntersectionOf 
+        Man 
+        Parent ))
+    (SubClassOf 
+      ChildlessPerson 
+      (ObjectIntersectionOf 
+        Person 
+        (ObjectComplementOf 
+          (ObjectSomeValuesFrom 
+            (ObjectInverseOf 
+              hasParent )
+            |owl:Thing| ))))
+    (SubClassOf 
+      (ObjectIntersectionOf 
+        (ObjectOneOf 
+          Mary 
+          Bill 
+          Meg )
+        Female )
+      (ObjectIntersectionOf 
+        Parent 
+        (ObjectMaxCardinality 
+          "1" 
+          hasChild )
+        (ObjectAllValuesFrom 
+          hasChild 
+          Female )))
+    (SubClassOf 
+      Teenager 
+      (DataSomeValuesFrom 
+        hasAge 
+        (DatatypeRestriction 
+          (Datatype () 
+            "http://www.w3.org/2001/XMLSchema#integer" )
+          (FacetRestriction () 
+            "http://www.w3.org/2001/XMLSchema#minExclusive" 
+            (OWLLiteral "12" "http://www.w3.org/2001/XMLSchema#integer"))
+          (FacetRestriction () 
+            "http://www.w3.org/2001/XMLSchema#maxInclusive" 
+            (OWLLiteral "19" "http://www.w3.org/2001/XMLSchema#integer")))))
+    (SubClassOf 
+      (Annotation 
+        |http://www.w3.org/2000/01/rdf-schema#comment| 
+        (OWLLiteral "\"States that every man is a person.\"" "xsd:string"))
+      Man 
+      Person )
+    (EquivalentClasses 
+      HappyPerson 
+      (ObjectIntersectionOf 
+        (ObjectAllValuesFrom 
+          hasChild 
+          HappyPerson )
+        (ObjectSomeValuesFrom 
+          hasChild 
+          HappyPerson )))
+    (EquivalentClasses 
+      JohnsChildren 
+      (ObjectHasValue 
+        hasParent 
+        John ))
+    (EquivalentClasses 
+      NarcisticPerson 
+      (ObjectHasSelf 
+        loves ))
+    (EquivalentClasses 
+      Orphan 
+      (ObjectAllValuesFrom 
+        (ObjectInverseOf 
+          hasChild )
+        Dead ))
+    (EquivalentClasses 
+      MyBirthdayGuests 
+      (ObjectOneOf 
+        Bill 
+        John 
+        Mary ))
+    (EquivalentClasses 
+      Adult 
+      |otherOnt:Grownup| )
+    (EquivalentClasses 
+      Parent 
+      (ObjectSomeValuesFrom 
+        hasChild 
+        Person ))
+    (EquivalentClasses 
+      Parent 
+      (ObjectSomeValuesFrom 
+        hasChild 
+        Person ))
+    (EquivalentClasses 
+      Person 
+      Human )
+    (EquivalentClasses 
+      Mother 
+      (ObjectIntersectionOf 
+        Woman 
+        Parent ))
+    (EquivalentClasses 
+      Parent 
+      (ObjectUnionOf 
+        Mother 
+        Father ))
+    (EquivalentClasses 
+      ChildlessPerson 
+      (ObjectIntersectionOf 
+        Person 
+        (ObjectComplementOf 
+          Parent )))
+    (DisjointClasses 
+      Woman 
+      Man )
+    (DisjointClasses 
+      Father 
+      Mother 
+      YoungChild )
+    (DifferentIndividuals 
+      John 
+      Bill )
+    (SameIndividual 
+      James 
+      Jim )
+    (SameIndividual 
+      John 
+      |otherOnt:JohnBrown| )
+    (SameIndividual 
+      Mary 
+      |otherOnt:MaryBrown| )
+    (ObjectPropertyAssertion 
+      hasWife 
+      John 
+      Mary )
+    (DataPropertyAssertion 
+      hasAge 
+      John 
+      (OWLLiteral "51" "http://www.w3.org/2001/XMLSchema#integer"))
+    (ClassAssertion 
+      Person 
+      Mary )
+    (ClassAssertion 
+      Woman 
+      Mary )
+    (ClassAssertion 
+      (ObjectIntersectionOf 
+        Person 
+        (ObjectComplementOf 
+          Parent ))
+      Jack )
+    (ClassAssertion 
+      (ObjectMaxCardinality 
+        "4" 
+        hasChild 
+        Parent )
+      John )
+    (ClassAssertion 
+      (ObjectMinCardinality 
+        "2" 
+        hasChild 
+        Parent )
+      John )
+    (ClassAssertion 
+      (ObjectExactCardinality 
+        "3" 
+        hasChild 
+        Parent )
+      John )
+    (ClassAssertion 
+      (ObjectExactCardinality 
+        "5" 
+        hasChild )
+      John )
+    (ClassAssertion 
+      Father 
+      John )
+    (ClassAssertion 
+      Person 
+      John )
+    (ClassAssertion 
+      SocialRole 
+      Father )
+    (NegativeObjectPropertyAssertion 
+      hasWife 
+      Bill 
+      Mary )
+    (NegativeDataPropertyAssertion 
+      hasAge 
+      Jack 
+      (OWLLiteral "53" "http://www.w3.org/2001/XMLSchema#integer"))
+    (NegativeObjectPropertyAssertion 
+      hasDaughter 
+      Bill 
+      Susan )))
