@@ -93,7 +93,7 @@
     :long-description "Offers parsers and renderers for OWL 2 as well as an OWLlink implementation.
                        Contains an ontology management framework inspired by the Java OWLAPI (v2.2). 
                        Tested with: LispWorks 5.2, ACL 8.2, SBCL 1.0.40" 
-    :depends-on (:s-http-client :wilbur)
+    :depends-on (:dexador :wilbur)
     :components
     ((:module "owlapi"
       :serial t
