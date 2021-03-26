@@ -1,23 +1,23 @@
-# Loading OntoLisp using asdf:load-system
+# Loading OntoLisp using ql:quickload
+OntoLisp uses [Quicklisp](https://www.quicklisp.org/) to load dependencies.
+
 Add the following block to your `~/.sbclrc` file or equivalent
 or `~/.config/common-lisp/source-registry.conf`.
 
 ```lisp
-(let ((asdf::*default-source-registry-exclusions*
-        (cons "asdf" asdf::*default-source-registry-exclusions*)))
-  (asdf:initialize-source-registry
-   '(:source-registry
-     (:tree #p"/path/to/OntoLisp/")
-     :inherit-configuration)))
+(asdf:initialize-source-registry
+ '(:source-registry
+   (:tree #p"/path/to/OntoLisp/")
+   :inherit-configuration))
 ```
 
 From a repl you can then run
 ```lisp
-(asdf:load-system :ontolisp)
+(ql:quickload :ontolisp)
 (owlapi::owlapi-test)
 (owl-syntaxes::owl-syntaxes-test)
 ```
-If compilation is trigger on multiple calls to `asdf:load-system`
+If compilation is trigger on multiple calls to `ql:quickload`
 you can call `(asdf:compile-system :ontolisp)` which should prevent
 the need to compile the system on each load.
 
