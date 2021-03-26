@@ -2160,8 +2160,8 @@
             (with-consistent-tbox
               (values
                (owllink-boolean-response-message
-                (owllink-role-asymmetric-p role)
-                expressions)))
+                (owllink-role-asymmetric-p role))
+               expressions))
             #+:ignore
             (values 
              (owllink-to-be-implemented-message '|IsObjectPropertyAsymmetric|)

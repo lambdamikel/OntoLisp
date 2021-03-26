@@ -93,17 +93,15 @@
     :long-description "Offers parsers and renderers for OWL 2 as well as an OWLlink implementation.
                        Contains an ontology management framework inspired by the Java OWLAPI (v2.2). 
                        Tested with: LispWorks 5.2, ACL 8.2, SBCL 1.0.40" 
-    :depends-on (:s-http-client :wilbur )
-    :pathname "ontolisp:"
+    :depends-on (:s-http-client :wilbur)
     :components
-    ((:module
-      owlapi
+    ((:module "owlapi"
       :serial t
       :pathname ""
       :components ((:file "owlapi-package")
-		   (:file "owlapi-tools")
-		   (:file "owlapi")
-		   (:file "owlapi-synonyms")))
+                   (:file "owlapi-tools")
+                   (:file "owlapi")
+                   (:file "owlapi-synonyms")))
      #+:ignore
      (:module
       reasoner-bridge-for-owlapi
@@ -111,23 +109,22 @@
       :pathname ""
       :components ((:file "owlapi-reasoner-bridge"))
       :depends-on (:owlapi))
-     (:module
-      owl-syntaxes
+     (:module "owl-syntaxes"
       :serial t
       :pathname ""
       :components ((:file "owl-syntaxes-package")
-		   (:file "http-stream")
-		   (:file "owl-import")
-		   (:file "owl-functional")
-		   (:file "functional-renderer")
-		   (:file "owllink-parsers")
-		   (:file "owllink-functional")
-		   (:file "xml-renderer")
-		   (:file "owl-renderer")
-		   (:file "owllink-xml")
-		   (:file "import-export")
-		   (:file "owllink-converter")
-		   (:file "owlapi-test"))
+                   (:file "http-stream")
+                   (:file "owl-import")
+                   (:file "owl-functional")
+                   (:file "functional-renderer")
+                   (:file "owllink-parsers")
+                   (:file "owllink-functional")
+                   (:file "xml-renderer")
+                   (:file "owl-renderer")
+                   (:file "owllink-xml")
+                   (:file "import-export")
+                   (:file "owllink-converter")
+                   (:file "owlapi-test"))
       :depends-on (:owlapi))
      #+:ignore
      (:module
@@ -138,13 +135,13 @@
       :depends-on (:owl-syntaxes))
 
      (:file "dummy-functions"
-	    :depends-on (:owlapi :owl-syntaxes))
+      :depends-on (:owlapi :owl-syntaxes))
 
-     (:module
-      tests
+     (:module "tests"
       :serial t
       :pathname ""
-      :components ((:file "owlapi-test")
-		   (:file "owl-syntaxes-test"))
+      :components ((:file "ontolisp")
+                   (:file "owlapi-test")
+		           (:file "owl-syntaxes-test"))
       :depends-on (:owl-syntaxes "dummy-functions"))))
-   
+
