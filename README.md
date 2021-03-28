@@ -1,4 +1,11 @@
-# Loading OntoLisp using ql:quickload
+# OntoLisp
+A Common Lisp Framework for the Semantic Web
+
+## Contributors
+
+[Tom Gillespi](https://github.com/tgbugs) - thanks for the QuickLisp and ASDF changes! 
+
+## Loading OntoLisp using ql:quickload
 OntoLisp uses [Quicklisp](https://www.quicklisp.org/) to load dependencies.
 
 Add the following block to your `~/.sbclrc` file or equivalent
@@ -20,13 +27,6 @@ From a repl you can then run
 If compilation is trigger on multiple calls to `ql:quickload`
 you can call `(asdf:compile-system :ontolisp)` which should prevent
 the need to compile the system on each load.
-
-# OntoLisp
-A Common Lisp Framework for the Semantic Web
-
-## Contributors
-
-[Tom Gillespi](https://github.com/tgbugs) - thanks for the QuickLisp and ASDF changes! 
 
 ## About 
 
