@@ -93,7 +93,7 @@
          (format nil "file://~A"
                  (namestring 
                   (translate-logical-pathname
-                   (format nil "test:~A" file))))
+                   (format nil "ontolisp-test:~A" file))))
          args))
 
 
@@ -102,7 +102,7 @@
          (format nil "file://~A"
                  (namestring 
                   (translate-logical-pathname
-                   (format nil "test:temp;~A" file))))
+                   (format nil "ontolisp-test:temp;~A" file))))
          args))
 
 (defun write-owlapi-ontology-file (file &rest args)
@@ -236,7 +236,7 @@
       
       (demo (full-reset))
 
-      (demo (owllink-read-file1 "test:owllink-test-request.xml" :maintain-owlapi-axioms t))
+      (demo (owllink-read-file1 "ontolisp-test:owllink-test-request.xml" :maintain-owlapi-axioms t))
 
       (demo (owlapi-get-axioms)))
 
@@ -254,7 +254,7 @@
 
       (demo (full-reset))
       
-      (demo (convert-all (translate-logical-pathname "test:"))))
+      (demo (convert-all (translate-logical-pathname "ontolisp-test:"))))
 
     (progn 
 
@@ -270,7 +270,7 @@
 
       (demo (full-reset))
 
-      (demo (process-all (translate-logical-pathname "test:"))))
+      (demo (process-all (translate-logical-pathname "ontolisp-test:"))))
 
     (progn 
       

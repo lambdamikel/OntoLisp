@@ -190,7 +190,6 @@
   :version "2 / Patched by MW for OntoLisp"
   :licence "NOKOS 1.0a"
   :description "WILBUR2: Nokia's Semantic Web Toolkit for CLOS"
-  :pathname "wilbur2:"
   :components ((:file "packages-1")
                #+:ignore
 	       (:file "platform" :depends-on ("packages-1"))

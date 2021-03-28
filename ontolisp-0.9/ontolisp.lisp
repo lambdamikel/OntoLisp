@@ -1,7 +1,7 @@
 ;;; -*- Mode: Lisp; Syntax: Ansi-Common-Lisp; Package: CL-USER; Base: 10 -*-
 
 (in-package :cl-user)
-   
+
 ;;;
 ;;;;  ontolisp.lisp
 ;;;
@@ -95,49 +95,33 @@
 (eval-when (:load-toplevel :compile-toplevel :execute)
   (when (eq (readtable-case *readtable*) :preserve)
     (push :mlisp *features*))
-  
-  (unless *load-pathname*
-    (break "\"ontolisp.lisp\" cannot be buffer-evaluated. Please use \"load\" or specify the \"logical-pathname-translation\" for host \"ontolisp\" by hand here:"))
+  (let ((pathname (asdf:system-source-directory :ontolisp)))
+    (unless pathname
+      (break "\"ontolisp.lisp\" cannot be buffer-evaluated. Please use \"load\" or specify the \"logical-pathname-translation\" for host \"ontolisp\" by hand here:"))
 
-  (let* ((p (probe-file *load-pathname*))
-	 (d (pathname-directory p)))
-    
-    (if d
-	(setf (logical-pathname-translations "ontolisp")
-	  `(("**;*.*"
-	     ,(merge-pathnames (make-pathname :name :wild :type :wild :version :wild
-					      :directory '(:relative :wild-inferiors))
-			       (make-pathname :name nil :type nil
-					      :directory d
-					      :defaults p)))))
-      (break "File ~A not found." *load-pathname*))
-    
-    (setf (logical-pathname-translations "wilbur2")
-      '(("**;*.*" "ontolisp:wilbur2;src;**;*.*")))
+    (let* ((p (probe-file pathname))
+           (d (pathname-directory p)))
 
-    (setf (logical-pathname-translations "test")
-          '(("**;*.*" "ontolisp:test;**;*.*")))
-    
-    (format t "~%~%Base directory is: ~A" (translate-logical-pathname "ontolisp:"))))
+      (if d
+          (setf (logical-pathname-translations "ontolisp")
+                `(("**;*.*"
+                   ,(merge-pathnames (make-pathname :name :wild :type :wild :version :wild
+                                                    :directory '(:relative :wild-inferiors))
+                                     (make-pathname :name nil :type nil
+                                                    :directory d
+                                                    :defaults p)))))
+          (break "File ~A not found." pathname))
 
+      (setf (logical-pathname-translations "wilbur2")
+            '(("**;*.*" "ontolisp:wilbur2;src;**;*.*")))
 
+      (setf (logical-pathname-translations "ontolisp-test")
+            '(("**;*.*" "ontolisp:test;**;*.*")))
+
+      (format t "~%~%Base directory is: ~A" (translate-logical-pathname "ontolisp:")))))
+
+#-asdf
 (load "ontolisp:asdf;asdf.lisp")
-
-(dolist (fn '("ontolisp:" 
-              "ontolisp:asdf;"
-              "ontolisp:puri;"
-              "ontolisp:s-http-client;"
-              "ontolisp:s-sysdeps;"
-              "ontolisp:s-base64;"
-              "ontolisp:s-utils;"
-              "ontolisp:wilbur2;src;"))
-  (push (translate-logical-pathname fn) asdf:*central-registry*))
-
-(defun load-ontolisp (&optional force-p)
-  (asdf:operate 'asdf:compile-op :ontolisp :force force-p)
-  (asdf:operate 'asdf:load-op :ontolisp))
-
-(load-ontolisp t)
 
 ;;; (owlapi::owlapi-test)
 ;;; (owl-syntaxes::owl-syntaxes-test)

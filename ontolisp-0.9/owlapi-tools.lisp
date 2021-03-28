@@ -375,7 +375,7 @@
   #+:allegro
   (stream::whitespace-char-p char)
   #+:sbcl
-  (position char SB-FORMAT::*FORMAT-WHITESPACE-CHARS*)
+  (sb-impl:whitespace[2]p char)
   #+(and (not :allegro) (not :lispworks) (not :sbcl))
   (to-be-implemented 'whitespace-char-p))
 
