@@ -1,3 +1,26 @@
+# Loading OntoLisp using ql:quickload
+OntoLisp uses [Quicklisp](https://www.quicklisp.org/) to load dependencies.
+
+Add the following block to your `~/.sbclrc` file or equivalent
+or `~/.config/common-lisp/source-registry.conf`.
+
+```lisp
+(asdf:initialize-source-registry
+ '(:source-registry
+   (:tree #p"/path/to/OntoLisp/")
+   :inherit-configuration))
+```
+
+From a repl you can then run
+```lisp
+(ql:quickload :ontolisp)
+(owlapi::owlapi-test)
+(owl-syntaxes::owl-syntaxes-test)
+```
+If compilation is trigger on multiple calls to `ql:quickload`
+you can call `(asdf:compile-system :ontolisp)` which should prevent
+the need to compile the system on each load.
+
 # OntoLisp
 A Common Lisp Framework for the Semantic Web
 

@@ -231,7 +231,7 @@
                     :direction :input)))
          ,@body)
      (let ((string 
-            (s-http-client:do-http-request ,url)))
+            (dex:get ,url)))
        ;; (pprint string)
        (with-input-from-string (,stream string)
          ,@body))))
