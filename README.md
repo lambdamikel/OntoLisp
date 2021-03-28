@@ -1,6 +1,14 @@
 # OntoLisp
 A Common Lisp Framework for the Semantic Web
 
+## Contributors
+
+[Tom Gillespi](https://github.com/tgbugs) - thanks for the QuickLisp and ASDF changes! 
+
+## About 
+
+(Old README.TXT) 
+
 ```
 OntoLisp (NOSA): A Semantic Web Framework for OWL 2 and OWLlink in Common Lisp
 
