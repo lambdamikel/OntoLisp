@@ -3,7 +3,7 @@ A Common Lisp Framework for the Semantic Web
 
 ## Contributors
 
-[Tom Gillespi](https://github.com/tgbugs) - thanks for the QuickLisp and ASDF changes! 
+[Tom Gillespie](https://github.com/tgbugs) - thanks for the QuickLisp and ASDF changes! 
 
 ## Loading OntoLisp using ql:quickload
 OntoLisp uses [Quicklisp](https://www.quicklisp.org/) to load dependencies.
